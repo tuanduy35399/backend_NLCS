@@ -1,0 +1,661 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "cross_validate",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "cross_val_score",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "RandomizedSearchCV",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "SelectKBest",
+        "importPath": "sklearn.feature_selection",
+        "description": "sklearn.feature_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_selection",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnTransformer",
+        "importPath": "sklearn.compose",
+        "description": "sklearn.compose",
+        "isExtraImport": true,
+        "detail": "sklearn.compose",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleImputer",
+        "importPath": "sklearn.impute",
+        "description": "sklearn.impute",
+        "isExtraImport": true,
+        "detail": "sklearn.impute",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "GradientBoostingClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "LogisticRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "combinations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('Scripts') - 1]  # ty: ignore[unresolved-reference]\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('Scripts') - 1]  # ty: ignore[unresolved-reference]\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "pkg_config_path",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "pkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):  # ty: ignore[unresolved-reference]\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "existing_pkg_config_path",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "existing_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):  # ty: ignore[unresolved-reference]\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)  # ty: ignore[unresolved-reference,unresolved-attribute]",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):  # ty: ignore[unresolved-reference]\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)  # ty: ignore[unresolved-reference,unresolved-attribute]\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix  # ty: ignore[unresolved-attribute]\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix  # ty: ignore[unresolved-attribute]\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix  # ty: ignore[unresolved-attribute]\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test",
+        "description": "ai.model.final_models.test",
+        "peekOfCode": "data = pd.read_csv('ai/model/final_models/dataset.csv')\nx = data.drop('NhomNganh', axis=1)\ny = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))",
+        "detail": "ai.model.final_models.test",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test",
+        "description": "ai.model.final_models.test",
+        "peekOfCode": "x = data.drop('NhomNganh', axis=1)\ny = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")",
+        "detail": "ai.model.final_models.test",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test",
+        "description": "ai.model.final_models.test",
+        "peekOfCode": "y = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")",
+        "detail": "ai.model.final_models.test",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test",
+        "description": "ai.model.final_models.test",
+        "peekOfCode": "model = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
+        "detail": "ai.model.final_models.test",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test",
+        "description": "ai.model.final_models.test",
+        "peekOfCode": "y_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
+        "detail": "ai.model.final_models.test",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test",
+        "description": "ai.model.final_models.test",
+        "peekOfCode": "cm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
+        "detail": "ai.model.final_models.test",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test1",
+        "description": "ai.model.final_models.test1",
+        "peekOfCode": "model = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\n# print(type(data))\n# print(data)\nma= input(\"Nhap vao ma to hop:\").strip()\ndiem= input(\"Nhap vao diem thi:\").strip()\ntinh_cach= input(\"Nhap vao tinh cach:\").strip()\npara = pd.DataFrame([{\n    \"MaToHop\": ma,\n    \"DiemToHop\":diem,\n    \"NhomTinhCach\": tinh_cach,",
+        "detail": "ai.model.final_models.test1",
+        "documentation": {}
+    },
+    {
+        "label": "para",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test1",
+        "description": "ai.model.final_models.test1",
+        "peekOfCode": "para = pd.DataFrame([{\n    \"MaToHop\": ma,\n    \"DiemToHop\":diem,\n    \"NhomTinhCach\": tinh_cach,\n}])\npred = model.predict(para)\nprint(type(pred))\nfor i in pred:\n    print('Nhom nganh phu hop: ', i)",
+        "detail": "ai.model.final_models.test1",
+        "documentation": {}
+    },
+    {
+        "label": "pred",
+        "kind": 5,
+        "importPath": "ai.model.final_models.test1",
+        "description": "ai.model.final_models.test1",
+        "peekOfCode": "pred = model.predict(para)\nprint(type(pred))\nfor i in pred:\n    print('Nhom nganh phu hop: ', i)",
+        "detail": "ai.model.final_models.test1",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "data = pd.read_csv('ai/model/final_models/dataset.csv')\n#Create feature and target variable\ntarget= \"NhomNganh\"\nx= data.drop(target, axis= 1) #bo cot label\ny= data[target] #label\n#Split\nnumerical_cols = [\"DiemToHop\"]\ncategorial_cols = [\"MaToHop\", \"NhomTinhCach\"]\n#Start PipeLine w/ Encoding\nnumerical_pipeline = Pipeline([",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "numerical_cols",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "numerical_cols = [\"DiemToHop\"]\ncategorial_cols = [\"MaToHop\", \"NhomTinhCach\"]\n#Start PipeLine w/ Encoding\nnumerical_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='mean')),\n    ('scaler', StandardScaler()),\n])\ncategorial_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='most_frequent')),\n    ('encoder', OneHotEncoder(handle_unknown='ignore')),   ",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "categorial_cols",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "categorial_cols = [\"MaToHop\", \"NhomTinhCach\"]\n#Start PipeLine w/ Encoding\nnumerical_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='mean')),\n    ('scaler', StandardScaler()),\n])\ncategorial_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='most_frequent')),\n    ('encoder', OneHotEncoder(handle_unknown='ignore')),   \n])",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "numerical_pipeline",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "numerical_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='mean')),\n    ('scaler', StandardScaler()),\n])\ncategorial_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='most_frequent')),\n    ('encoder', OneHotEncoder(handle_unknown='ignore')),   \n])\n#Join the pipelines \npreprocessor= ColumnTransformer([",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "categorial_pipeline",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "categorial_pipeline = Pipeline([\n    ('imputer', SimpleImputer(strategy='most_frequent')),\n    ('encoder', OneHotEncoder(handle_unknown='ignore')),   \n])\n#Join the pipelines \npreprocessor= ColumnTransformer([\n    ('num', numerical_pipeline, numerical_cols),\n    ('cate',categorial_pipeline, categorial_cols),\n])\n#combine the pipelines",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "pipe",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "pipe = Pipeline([\n    ('preprocessor', preprocessor),\n    ('select', SelectKBest(k=10)),\n    ('model', RandomForestClassifier()),\n])\n#Train model\n#Gom cac model lai\n# models = {\n#     \"LogisticRegression\": LogisticRegression(),\n#     \"RandomForest\": RandomForestClassifier(),",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "results = {}\nparam_grid = {\n    'model__n_estimators': [100, 200],\n    'model__max_depth': [None, 20],\n    'model__min_samples_split': [2, 5],\n    'model__min_samples_leaf': [1, 2],\n    'select__k': [5, 10],\n}\ngrid  = RandomizedSearchCV(\n    pipe,",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "param_grid",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "param_grid = {\n    'model__n_estimators': [100, 200],\n    'model__max_depth': [None, 20],\n    'model__min_samples_split': [2, 5],\n    'model__min_samples_leaf': [1, 2],\n    'select__k': [5, 10],\n}\ngrid  = RandomizedSearchCV(\n    pipe,\n    param_distributions=param_grid,",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "tinh_to_hop",
+        "kind": 2,
+        "importPath": "convert_Tohop",
+        "description": "convert_Tohop",
+        "peekOfCode": "def tinh_to_hop(ds_mon, ds_diem, to_hop):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,\n                \"MonHoc\":list(mon_hoc),\n                \"DiemToHop\": tong_diem",
+        "detail": "convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "user_subjects",
+        "kind": 5,
+        "importPath": "convert_Tohop",
+        "description": "convert_Tohop",
+        "peekOfCode": "user_subjects = [\"Toan\", \"Vat li\", \"Hoa hoc\", \"Tieng Anh\"]\nsubject_scores = {\n    \"Toan\": 9.0,\n    \"Vat li\": 8.5,\n    \"Hoa hoc\": 7.0,\n    \"Tieng Anh\": 6.5\n}\ndef tinh_to_hop(ds_mon, ds_diem, to_hop):\n    ds_mon= set(ds_mon)\n    results = []",
+        "detail": "convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "subject_scores",
+        "kind": 5,
+        "importPath": "convert_Tohop",
+        "description": "convert_Tohop",
+        "peekOfCode": "subject_scores = {\n    \"Toan\": 9.0,\n    \"Vat li\": 8.5,\n    \"Hoa hoc\": 7.0,\n    \"Tieng Anh\": 6.5\n}\ndef tinh_to_hop(ds_mon, ds_diem, to_hop):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():",
+        "detail": "convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "convert_Tohop",
+        "description": "convert_Tohop",
+        "peekOfCode": "df = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nTO_HOP = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndf_out = pd.DataFrame.from_dict(TO_HOP, orient=\"index\")\n# print(df_out)\nprint(tinh_to_hop(user_subjects,subject_scores,TO_HOP ))",
+        "detail": "convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "TO_HOP",
+        "kind": 5,
+        "importPath": "convert_Tohop",
+        "description": "convert_Tohop",
+        "peekOfCode": "TO_HOP = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndf_out = pd.DataFrame.from_dict(TO_HOP, orient=\"index\")\n# print(df_out)\nprint(tinh_to_hop(user_subjects,subject_scores,TO_HOP ))",
+        "detail": "convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "df_out",
+        "kind": 5,
+        "importPath": "convert_Tohop",
+        "description": "convert_Tohop",
+        "peekOfCode": "df_out = pd.DataFrame.from_dict(TO_HOP, orient=\"index\")\n# print(df_out)\nprint(tinh_to_hop(user_subjects,subject_scores,TO_HOP ))",
+        "detail": "convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "PredictRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class PredictRequest(BaseModel):\n    subjects: List[str]\n    scores: Dict[str, float]\n    holland: str\n@app.post(\"/predict\")\ndef predict_group_major(data: PredictRequest):\n    subjects = data.subjects    \n    scores = data.scores        \n    nhom_tc = data.holland      \n    list_to_hop = tinh_to_hop(subjects, scores)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tinh_to_hop",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,\n                \"DiemToHop\": tong_diem\n            })",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "call_model",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def call_model(list_results, nhom_tc):\n    kq = []\n    for item in list_results:\n        df = pd.DataFrame([{\n            \"MaToHop\": item[\"MaToHop\"],\n            \"DiemToHop\": item[\"DiemToHop\"],\n            \"NhomTinhCach\": nhom_tc\n        }])\n        pred = model.predict(df)[0]\n        kq.append({",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "predict_group_major",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def predict_group_major(data: PredictRequest):\n    subjects = data.subjects    \n    scores = data.scores        \n    nhom_tc = data.holland      \n    list_to_hop = tinh_to_hop(subjects, scores)\n    result = call_model(list_to_hop, nhom_tc)\n    return {\n        \"input\": data,\n        \"recommendations\": result\n    }",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\nmodel = joblib.load(\"ai/model/final_models/best_model_randomforest.pkl\")\ndf = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "model = joblib.load(\"ai/model/final_models/best_model_randomforest.pkl\")\ndf = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "df = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "to_hop",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "to_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,\n                \"DiemToHop\": tong_diem",
+        "detail": "main",
+        "documentation": {}
+    }
+]
