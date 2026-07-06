@@ -10,11 +10,12 @@ app = FastAPI()
 
 model = joblib.load("ai/model/final_models/best_model_randomforest.pkl")
 classes = model.classes_
-df = pd.read_csv("to_hop_mon.csv", encoding="utf-8")
+df = pd.read_csv("ai/ref_files/to_hop_mon.csv", encoding="utf-8")
 to_hop = df.groupby("MaToHop")["MonHoc"].apply(set).to_dict()
 origins = [
     "http://localhost:5173",  
     "http://127.0.0.1:5173",
+    "https://guessyourjob.vercel.app",
 ]
 
 app.add_middleware(

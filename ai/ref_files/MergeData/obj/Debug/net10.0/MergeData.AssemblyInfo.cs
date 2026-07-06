@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MergeData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8164223071201b8bda20bac8e765a05852312ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85145fac3ff948587bd0c1b3a9f464ea4fd37ed0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MergeData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MergeData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
