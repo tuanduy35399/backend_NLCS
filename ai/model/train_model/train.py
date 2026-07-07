@@ -9,7 +9,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer #link other pipelines together
 from sklearn.preprocessing import StandardScaler, OneHotEncoder # Tien xu ly data, lam data clean hon
 from sklearn.impute import SimpleImputer #Xu ly bat khi du lieu bi missing
-
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier #Chon thuat toan
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
@@ -18,7 +17,7 @@ from sklearn.svm import SVC
 # from sklearn.metrics import mean_absolute_error, mean_squared_error,r2_score #test model sau khi train xong #nay 
 from sklearn.metrics import accuracy_score, classification_report
 #Loading data
-data = pd.read_csv('ai/model/final_models/dataset.csv')
+data = pd.read_csv(r'C:\Users\Duy\Documents\MyProject\nienLuanCoSo\backend_NLCS\ai\data\dataset.csv') 
 
 #Create feature and target variable
 target= "NhomNganh"
@@ -91,7 +90,7 @@ grid.fit(x, y) #tien hanh train model
 
 print(grid.best_params_)
 print(grid.cv_results_)
-# joblib.dump(grid.best_estimator_, 'best_model_randomforest.pkl')
+joblib.dump(grid.best_estimator_, 'best_model_randomforest.pkl')
 joblib.dump(grid.cv_results_, 'cv_results.pkl')
 
 
