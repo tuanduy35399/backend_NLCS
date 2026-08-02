@@ -1,2 +1,17 @@
 .env
 *.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Dữ liệu được sinh lại khi ingest RAG
+vector_db/
+chroma_db/
+/google_model/vector_db

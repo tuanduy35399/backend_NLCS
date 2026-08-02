@@ -2,7 +2,7 @@ import joblib
 import pandas as pd 
 
 
-model = joblib.load('ai/model/final_models/best_model_randomforest.pkl')
+model = joblib.load(r'C:\Users\Duy\Documents\MyProject\nienLuanCoSo\backend_NLCS\ai\model\train_model\best_model_randomforest_mbti.pkl')
 
 # print(type(data))
 # print(data)

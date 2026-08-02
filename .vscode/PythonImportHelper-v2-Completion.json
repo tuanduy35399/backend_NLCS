@@ -1,11 +1,37 @@
 [
     {
-        "label": "runpy",
+        "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "runpy",
-        "description": "runpy",
-        "detail": "runpy",
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
         "documentation": {}
     },
     {
@@ -17,30 +43,158 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "__future__",
         "documentation": {}
     },
     {
-        "label": "site",
+        "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "site",
-        "description": "site",
-        "detail": "site",
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "random",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
         "documentation": {}
     },
     {
@@ -50,15 +204,6 @@
         "importPath": "joblib",
         "description": "joblib",
         "detail": "joblib",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -102,14 +247,6 @@
         "documentation": {}
     },
     {
-        "label": "train_test_split",
-        "importPath": "sklearn.model_selection",
-        "description": "sklearn.model_selection",
-        "isExtraImport": true,
-        "detail": "sklearn.model_selection",
-        "documentation": {}
-    },
-    {
         "label": "cross_validate",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
@@ -118,7 +255,7 @@
         "documentation": {}
     },
     {
-        "label": "cross_val_score",
+        "label": "StratifiedKFold",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
         "isExtraImport": true,
@@ -241,14 +378,6 @@
         "documentation": {}
     },
     {
-        "label": "combinations",
-        "importPath": "itertools",
-        "description": "itertools",
-        "isExtraImport": true,
-        "detail": "itertools",
-        "documentation": {}
-    },
-    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -265,118 +394,824 @@
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "bin_dir",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('Scripts') - 1]  # ty: ignore[unresolved-reference]\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
         "documentation": {}
     },
     {
-        "label": "base",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "base = bin_dir[: -len('Scripts') - 1]  # ty: ignore[unresolved-reference]\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
-        "label": "os.environ[\"PATH\"]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "VectorStoreIndex",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "os.environ[\"VIRTUAL_ENV\"]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "Settings",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)  # ty: ignore[unresolved-reference]\n# Set PKG_CONFIG_PATH to include the virtualenv's pkgconfig directory\npkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "StorageContext",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "pkg_config_path",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "pkg_config_path = os.path.join(base, \"lib\", \"pkgconfig\")\nexisting_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):  # ty: ignore[unresolved-reference]\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "Settings",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "existing_pkg_config_path",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "existing_pkg_config_path = os.environ.get(\"PKG_CONFIG_PATH\", \"\")\nif existing_pkg_config_path:\n    os.environ[\"PKG_CONFIG_PATH\"] = os.pathsep.join([pkg_config_path, existing_pkg_config_path])\nelse:\n    os.environ[\"PKG_CONFIG_PATH\"] = pkg_config_path\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):  # ty: ignore[unresolved-reference]\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)  # ty: ignore[unresolved-reference,unresolved-attribute]",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "VectorStoreIndex",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "prev_length",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):  # ty: ignore[unresolved-reference]\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)  # ty: ignore[unresolved-reference,unresolved-attribute]\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix  # ty: ignore[unresolved-attribute]\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "Document",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "sys.path[:]",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix  # ty: ignore[unresolved-attribute]\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "Settings",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "sys.real_prefix",
-        "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "sys.real_prefix = sys.prefix  # ty: ignore[unresolved-attribute]\nsys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
+        "label": "Settings",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
         "documentation": {}
     },
     {
-        "label": "sys.prefix",
+        "label": "Settings",
+        "importPath": "llama_index.core",
+        "description": "llama_index.core",
+        "isExtraImport": true,
+        "detail": "llama_index.core",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyGraphIndex",
+        "importPath": "llama_index.core.indices.property_graph",
+        "description": "llama_index.core.indices.property_graph",
+        "isExtraImport": true,
+        "detail": "llama_index.core.indices.property_graph",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyGraphIndex",
+        "importPath": "llama_index.core.indices.property_graph",
+        "description": "llama_index.core.indices.property_graph",
+        "isExtraImport": true,
+        "detail": "llama_index.core.indices.property_graph",
+        "documentation": {}
+    },
+    {
+        "label": "SchemaLLMPathExtractor",
+        "importPath": "llama_index.core.indices.property_graph",
+        "description": "llama_index.core.indices.property_graph",
+        "isExtraImport": true,
+        "detail": "llama_index.core.indices.property_graph",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyGraphIndex",
+        "importPath": "llama_index.core.indices.property_graph",
+        "description": "llama_index.core.indices.property_graph",
+        "isExtraImport": true,
+        "detail": "llama_index.core.indices.property_graph",
+        "documentation": {}
+    },
+    {
+        "label": "BGE_M3_Embedding",
+        "importPath": "graphRAG.indexing.embedding.bge_m3",
+        "description": "graphRAG.indexing.embedding.bge_m3",
+        "isExtraImport": true,
+        "detail": "graphRAG.indexing.embedding.bge_m3",
+        "documentation": {}
+    },
+    {
+        "label": "GraphStore",
+        "importPath": "graphRAG.indexing.graph.graph_store",
+        "description": "graphRAG.indexing.graph.graph_store",
+        "isExtraImport": true,
+        "detail": "graphRAG.indexing.graph.graph_store",
+        "documentation": {}
+    },
+    {
+        "label": "ChromaStore",
+        "importPath": "graphRAG.indexing.vector.chroma",
+        "description": "graphRAG.indexing.vector.chroma",
+        "isExtraImport": true,
+        "detail": "graphRAG.indexing.vector.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "AnswerGenerator",
+        "importPath": "graphRAG.llm.answer_generator",
+        "description": "graphRAG.llm.answer_generator",
+        "isExtraImport": true,
+        "detail": "graphRAG.llm.answer_generator",
+        "documentation": {}
+    },
+    {
+        "label": "GeminiLLM",
+        "importPath": "graphRAG.llm.gemini",
+        "description": "graphRAG.llm.gemini",
+        "isExtraImport": true,
+        "detail": "graphRAG.llm.gemini",
+        "documentation": {}
+    },
+    {
+        "label": "Retriever",
+        "importPath": "graphRAG.retrieval.retrieve",
+        "description": "graphRAG.retrieval.retrieve",
+        "isExtraImport": true,
+        "detail": "graphRAG.retrieval.retrieve",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbedding",
+        "importPath": "llama_index.embeddings.huggingface",
+        "description": "llama_index.embeddings.huggingface",
+        "isExtraImport": true,
+        "detail": "llama_index.embeddings.huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "Neo4jPropertyGraphStore",
+        "importPath": "llama_index.graph_stores.neo4j",
+        "description": "llama_index.graph_stores.neo4j",
+        "isExtraImport": true,
+        "detail": "llama_index.graph_stores.neo4j",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "TitleExtractor",
+        "importPath": "llama_index.core.extractors",
+        "description": "llama_index.core.extractors",
+        "isExtraImport": true,
+        "detail": "llama_index.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "KeywordExtractor",
+        "importPath": "llama_index.core.extractors",
+        "description": "llama_index.core.extractors",
+        "isExtraImport": true,
+        "detail": "llama_index.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryExtractor",
+        "importPath": "llama_index.core.extractors",
+        "description": "llama_index.core.extractors",
+        "isExtraImport": true,
+        "detail": "llama_index.core.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionPipeline",
+        "importPath": "llama_index.core.ingestion",
+        "description": "llama_index.core.ingestion",
+        "isExtraImport": true,
+        "detail": "llama_index.core.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownNodeParser",
+        "importPath": "llama_index.core.node_parser",
+        "description": "llama_index.core.node_parser",
+        "isExtraImport": true,
+        "detail": "llama_index.core.node_parser",
+        "documentation": {}
+    },
+    {
+        "label": "SemanticSplitterNodeParser",
+        "importPath": "llama_index.core.node_parser",
+        "description": "llama_index.core.node_parser",
+        "isExtraImport": true,
+        "detail": "llama_index.core.node_parser",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceSplitter",
+        "importPath": "llama_index.core.node_parser",
+        "description": "llama_index.core.node_parser",
+        "isExtraImport": true,
+        "detail": "llama_index.core.node_parser",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BaseNode",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BaseNode",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "chromadb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chromadb",
+        "description": "chromadb",
+        "detail": "chromadb",
+        "documentation": {}
+    },
+    {
+        "label": "ChromaVectorStore",
+        "importPath": "llama_index.vector_stores.chroma",
+        "description": "llama_index.vector_stores.chroma",
+        "isExtraImport": true,
+        "detail": "llama_index.vector_stores.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "MajorLoader",
+        "importPath": "ingestion.loader.load_majors",
+        "description": "ingestion.loader.load_majors",
+        "isExtraImport": true,
+        "detail": "ingestion.loader.load_majors",
+        "documentation": {}
+    },
+    {
+        "label": "TextCleaner",
+        "importPath": "ingestion.processes.clean_text",
+        "description": "ingestion.processes.clean_text",
+        "isExtraImport": true,
+        "detail": "ingestion.processes.clean_text",
+        "documentation": {}
+    },
+    {
+        "label": "TextCleaner",
+        "importPath": "ingestion.processes.clean_text",
+        "description": "ingestion.processes.clean_text",
+        "isExtraImport": true,
+        "detail": "ingestion.processes.clean_text",
+        "documentation": {}
+    },
+    {
+        "label": "TextNormalizer",
+        "importPath": "ingestion.processes.normalize",
+        "description": "ingestion.processes.normalize",
+        "isExtraImport": true,
+        "detail": "ingestion.processes.normalize",
+        "documentation": {}
+    },
+    {
+        "label": "TextNormalizer",
+        "importPath": "ingestion.processes.normalize",
+        "description": "ingestion.processes.normalize",
+        "isExtraImport": true,
+        "detail": "ingestion.processes.normalize",
+        "documentation": {}
+    },
+    {
+        "label": "MetadataExtractor",
+        "importPath": "indexing.metadata.extractor",
+        "description": "indexing.metadata.extractor",
+        "isExtraImport": true,
+        "detail": "indexing.metadata.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "BGE_M3_Embedding",
+        "importPath": "indexing.embedding.bge_m3",
+        "description": "indexing.embedding.bge_m3",
+        "isExtraImport": true,
+        "detail": "indexing.embedding.bge_m3",
+        "documentation": {}
+    },
+    {
+        "label": "GraphBuilder",
+        "importPath": "indexing.graph.graph_builder",
+        "description": "indexing.graph.graph_builder",
+        "isExtraImport": true,
+        "detail": "indexing.graph.graph_builder",
+        "documentation": {}
+    },
+    {
+        "label": "ChromaStore",
+        "importPath": "indexing.vector.chroma",
+        "description": "indexing.vector.chroma",
+        "isExtraImport": true,
+        "detail": "indexing.vector.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "GraphStore",
+        "importPath": "indexing.graph.graph_store",
+        "description": "indexing.graph.graph_store",
+        "isExtraImport": true,
+        "detail": "indexing.graph.graph_store",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLLM",
+        "importPath": "llm.custom",
+        "description": "llm.custom",
+        "isExtraImport": true,
+        "detail": "llm.custom",
+        "documentation": {}
+    },
+    {
+        "label": "unicodedata",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAILike",
+        "importPath": "llama_index.llms.openai_like",
+        "description": "llama_index.llms.openai_like",
+        "isExtraImport": true,
+        "detail": "llama_index.llms.openai_like",
+        "documentation": {}
+    },
+    {
+        "label": "PydanticProgramMode",
+        "importPath": "llama_index.core.types",
+        "description": "llama_index.core.types",
+        "isExtraImport": true,
+        "detail": "llama_index.core.types",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenAI",
+        "importPath": "llama_index.llms.google_genai",
+        "description": "llama_index.llms.google_genai",
+        "isExtraImport": true,
+        "detail": "llama_index.llms.google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "Ollama",
+        "importPath": "llama_index.llms.ollama",
+        "description": "llama_index.llms.ollama",
+        "isExtraImport": true,
+        "detail": "llama_index.llms.ollama",
+        "documentation": {}
+    },
+    {
+        "label": "FlagReranker",
+        "importPath": "FlagEmbedding",
+        "description": "FlagEmbedding",
+        "isExtraImport": true,
+        "detail": "FlagEmbedding",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "BuildIndex",
+        "importPath": "indexing.build_index",
+        "description": "indexing.build_index",
+        "isExtraImport": true,
+        "detail": "indexing.build_index",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGoogleGenerativeAI",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "genai",
+        "importPath": "google",
+        "description": "google",
+        "isExtraImport": true,
+        "detail": "google",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "tinh_to_hop",
+        "kind": 2,
+        "importPath": "ai.data.old.convert_Tohop",
+        "description": "ai.data.old.convert_Tohop",
+        "peekOfCode": "def tinh_to_hop(subject_scores, to_hop):\n    ket_qua = []\n    ds_mon = set(subject_scores.keys())\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(subject_scores[m] for m in mon_hoc)\n            ket_qua.append({\n                \"MaToHop\": ma_to_hop,\n                \"DiemToHop\": round(tong_diem, 2)\n            })",
+        "detail": "ai.data.old.convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "df_tohop",
         "kind": 5,
-        "importPath": ".venv.Scripts.activate_this",
-        "description": ".venv.Scripts.activate_this",
-        "peekOfCode": "sys.prefix = base",
-        "detail": ".venv.Scripts.activate_this",
+        "importPath": "ai.data.old.convert_Tohop",
+        "description": "ai.data.old.convert_Tohop",
+        "peekOfCode": "df_tohop = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nTO_HOP = (\n    df_tohop.groupby(\"MaToHop\")[\"MonHoc\"]\n    .apply(set)\n    .to_dict()\n)\n# Hàm tính điểm tổ hợp\ndef tinh_to_hop(subject_scores, to_hop):\n    ket_qua = []\n    ds_mon = set(subject_scores.keys())",
+        "detail": "ai.data.old.convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "TO_HOP",
+        "kind": 5,
+        "importPath": "ai.data.old.convert_Tohop",
+        "description": "ai.data.old.convert_Tohop",
+        "peekOfCode": "TO_HOP = (\n    df_tohop.groupby(\"MaToHop\")[\"MonHoc\"]\n    .apply(set)\n    .to_dict()\n)\n# Hàm tính điểm tổ hợp\ndef tinh_to_hop(subject_scores, to_hop):\n    ket_qua = []\n    ds_mon = set(subject_scores.keys())\n    for ma_to_hop, mon_hoc in to_hop.items():",
+        "detail": "ai.data.old.convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "df_diem",
+        "kind": 5,
+        "importPath": "ai.data.old.convert_Tohop",
+        "description": "ai.data.old.convert_Tohop",
+        "peekOfCode": "df_diem = pd.read_excel(\"diemthiTHPT_tuoitre.xlsx\")\ntat_ca_ket_qua = []\nfor _, row in df_diem.iterrows():\n    subject_scores = {}\n    # bỏ 2 cột đầu\n    for mon in df_diem.columns[2:]:\n        diem = row[mon]\n        if pd.notna(diem):\n            subject_scores[mon] = float(diem)\n    ket_qua = tinh_to_hop(subject_scores, TO_HOP)",
+        "detail": "ai.data.old.convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "tat_ca_ket_qua",
+        "kind": 5,
+        "importPath": "ai.data.old.convert_Tohop",
+        "description": "ai.data.old.convert_Tohop",
+        "peekOfCode": "tat_ca_ket_qua = []\nfor _, row in df_diem.iterrows():\n    subject_scores = {}\n    # bỏ 2 cột đầu\n    for mon in df_diem.columns[2:]:\n        diem = row[mon]\n        if pd.notna(diem):\n            subject_scores[mon] = float(diem)\n    ket_qua = tinh_to_hop(subject_scores, TO_HOP)\n    for kq in ket_qua:",
+        "detail": "ai.data.old.convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "df_output",
+        "kind": 5,
+        "importPath": "ai.data.old.convert_Tohop",
+        "description": "ai.data.old.convert_Tohop",
+        "peekOfCode": "df_output = pd.DataFrame(tat_ca_ket_qua)\ndf_output.to_excel(\"TongHopDiemThi.xlsx\", index=False)\nprint(df_output.head())\nprint(f\"Tổng số dòng sinh ra: {len(df_output)}\")",
+        "detail": "ai.data.old.convert_Tohop",
+        "documentation": {}
+    },
+    {
+        "label": "get_major_links",
+        "kind": 2,
+        "importPath": "ai.data.crawl_data",
+        "description": "ai.data.crawl_data",
+        "peekOfCode": "def get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"\n        print(f\"Đang đọc: {page_url}\")\n        res = requests.get(page_url, headers=headers)\n        res.raise_for_status()\n        soup = BeautifulSoup(res.text, \"lxml\")\n        for a in soup.select(\"a[href]\"):",
+        "detail": "ai.data.crawl_data",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_major",
+        "kind": 2,
+        "importPath": "ai.data.crawl_data",
+        "description": "ai.data.crawl_data",
+        "peekOfCode": "def scrape_major(url):\n    res = requests.get(url, headers=headers)\n    res.raise_for_status()\n    soup = BeautifulSoup(res.text, \"lxml\")\n    # Tiêu đề\n    title = soup.select_one(\"h1, h2\")\n    title = title.get_text(strip=True) if title else \"Không có tiêu đề\"\n    # Nội dung bài viết\n    content = soup.select_one(\"section.article-content.clearfix\")\n    paragraphs = []",
+        "detail": "ai.data.crawl_data",
+        "documentation": {}
+    },
+    {
+        "label": "export_json",
+        "kind": 2,
+        "importPath": "ai.data.crawl_data",
+        "description": "ai.data.crawl_data",
+        "peekOfCode": "def export_json(data, filename=\"ctu_majors.json\"):\n    with open(filename, \"w\", encoding=\"utf-8\") as f:\n        json.dump(data, f, ensure_ascii=False, indent=4)\n# Main\nif __name__ == \"__main__\":\n    links = get_major_links()\n    print(\"Tổng số ngành:\", len(links))\n    majors = []\n    for i, link in enumerate(links):\n        print(f\"[{i+1}/{len(links)}] {link}\")",
+        "detail": "ai.data.crawl_data",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "ai.data.crawl_data",
+        "description": "ai.data.crawl_data",
+        "peekOfCode": "BASE_URL = \"https://tuyensinh.ctu.edu.vn\"\nLIST_URL = BASE_URL + \"/gioi-thieu-nganh/\"\nheaders = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"",
+        "detail": "ai.data.crawl_data",
+        "documentation": {}
+    },
+    {
+        "label": "LIST_URL",
+        "kind": 5,
+        "importPath": "ai.data.crawl_data",
+        "description": "ai.data.crawl_data",
+        "peekOfCode": "LIST_URL = BASE_URL + \"/gioi-thieu-nganh/\"\nheaders = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"\n        print(f\"Đang đọc: {page_url}\")",
+        "detail": "ai.data.crawl_data",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "ai.data.crawl_data",
+        "description": "ai.data.crawl_data",
+        "peekOfCode": "headers = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"\n        print(f\"Đang đọc: {page_url}\")\n        res = requests.get(page_url, headers=headers)",
+        "detail": "ai.data.crawl_data",
+        "documentation": {}
+    },
+    {
+        "label": "canonical_subject",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def canonical_subject(value: object) -> str:\n    name = re.sub(r\"\\s+\", \" \", str(value).strip())\n    return SUBJECT_ALIASES.get(name.casefold(), name)\ndef load_reference_tables() -> tuple[dict[str, list[str]], list[dict], dict[str, tuple[str, ...]]]:\n    \"\"\"Load the subject combinations, majors and Holland mapping tables.\"\"\"\n    combinations = pd.read_csv(DATA_DIR / \"to_hop_mon.csv\", encoding=\"utf-8\")\n    grouped = combinations.groupby(\"MaToHop\")[\"MonHoc\"].apply(list).to_dict()\n    to_hop = {\n        code: tuple(dict.fromkeys(canonical_subject(subject) for subject in subjects))\n        for code, subjects in grouped.items()",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "load_reference_tables",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def load_reference_tables() -> tuple[dict[str, list[str]], list[dict], dict[str, tuple[str, ...]]]:\n    \"\"\"Load the subject combinations, majors and Holland mapping tables.\"\"\"\n    combinations = pd.read_csv(DATA_DIR / \"to_hop_mon.csv\", encoding=\"utf-8\")\n    grouped = combinations.groupby(\"MaToHop\")[\"MonHoc\"].apply(list).to_dict()\n    to_hop = {\n        code: tuple(dict.fromkeys(canonical_subject(subject) for subject in subjects))\n        for code, subjects in grouped.items()\n    }\n    majors_df = pd.read_excel(DATA_DIR / \"ThongKeByDuy.xlsx\")\n    majors = []",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "iter_score_rows",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def iter_score_rows(path: Path) -> Iterable[dict[str, float]]:\n    \"\"\"Stream non-empty score rows from a large XLSX without loading it all.\"\"\"\n    workbook = load_workbook(path, read_only=True, data_only=True)\n    try:\n        sheet = workbook[workbook.sheetnames[0]]\n        rows = sheet.iter_rows(values_only=True)\n        headers = next(rows)\n        header_names = [canonical_subject(x) for x in headers]\n        if \"SOBAODANH\" not in headers:\n            raise ValueError(f\"{path.name}: thiếu cột SOBAODANH\")",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "generate_sources",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def generate_sources(sources: list[tuple[str, Path]], output: Path,\n                     holland: dict[str, list[str]], majors: list[dict], to_hop: dict,\n                     max_sample: int = 10_000, seed: int = 42) -> Path:\n    for year, source in sources:\n        if not source.exists():\n            raise FileNotFoundError(f\"Không tìm thấy file điểm {year}: {source}\")\n    majors_by_combo: dict[str, list[dict]] = defaultdict(list)\n    for major in majors:\n        for code in major[\"tohop\"]:\n            majors_by_combo[code].append(major)",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "generate_year",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def generate_year(year: str, holland: dict[str, list[str]], majors: list[dict], to_hop: dict,\n                  max_sample: int = 10_000, seed: int = 42) -> Path:\n    output = DATA_DIR / year / f\"dataset_balanced_holland_{year}.csv\"\n    return generate_sources([(year, YEAR_FILES[year])], output, holland, majors, to_hop,\n                            max_sample, seed)\ndef generate_mixed(holland: dict[str, list[str]], majors: list[dict], to_hop: dict,\n                   max_sample: int = 10_000, seed: int = 42) -> Path:\n    output = DATA_DIR / \"mixed\" / \"dataset_balanced_holland_mixed.csv\"\n    return generate_sources(\n        [(\"2025\", YEAR_FILES[\"2025\"]), (\"2026\", YEAR_FILES[\"2026\"])],",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "generate_mixed",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def generate_mixed(holland: dict[str, list[str]], majors: list[dict], to_hop: dict,\n                   max_sample: int = 10_000, seed: int = 42) -> Path:\n    output = DATA_DIR / \"mixed\" / \"dataset_balanced_holland_mixed.csv\"\n    return generate_sources(\n        [(\"2025\", YEAR_FILES[\"2025\"]), (\"2026\", YEAR_FILES[\"2026\"])],\n        output, holland, majors, to_hop, max_sample, seed\n    )\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--year\", choices=[\"2025\", \"2026\", \"all\", \"mixed\"], default=\"all\")",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--year\", choices=[\"2025\", \"2026\", \"all\", \"mixed\"], default=\"all\")\n    parser.add_argument(\"--max-sample\", type=int, default=10_000)\n    args = parser.parse_args()\n    holland, majors, to_hop = load_reference_tables()\n    if args.year == \"mixed\":\n        generate_mixed(holland, majors, to_hop, args.max_sample)\n    else:\n        years = [\"2025\", \"2026\"] if args.year == \"all\" else [args.year]",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "DATA_DIR = Path(__file__).resolve().parent\nYEAR_FILES = {\n    \"2025\": DATA_DIR / \"2025\" / \"diemthi_thpt_2025.xlsx\",\n    \"2026\": DATA_DIR / \"2026\" / \"diemthi_thpt_2026.xlsx\",\n}\nSUBJECT_ALIASES = {\n    \"tieng anh\": \"Ngoai Ngu\",\n    \"ngoai ngu\": \"Ngoai Ngu\",\n}\ndef canonical_subject(value: object) -> str:",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "YEAR_FILES",
+        "kind": 5,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "YEAR_FILES = {\n    \"2025\": DATA_DIR / \"2025\" / \"diemthi_thpt_2025.xlsx\",\n    \"2026\": DATA_DIR / \"2026\" / \"diemthi_thpt_2026.xlsx\",\n}\nSUBJECT_ALIASES = {\n    \"tieng anh\": \"Ngoai Ngu\",\n    \"ngoai ngu\": \"Ngoai Ngu\",\n}\ndef canonical_subject(value: object) -> str:\n    name = re.sub(r\"\\s+\", \" \", str(value).strip())",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "SUBJECT_ALIASES",
+        "kind": 5,
+        "importPath": "ai.data.gen_dataset",
+        "description": "ai.data.gen_dataset",
+        "peekOfCode": "SUBJECT_ALIASES = {\n    \"tieng anh\": \"Ngoai Ngu\",\n    \"ngoai ngu\": \"Ngoai Ngu\",\n}\ndef canonical_subject(value: object) -> str:\n    name = re.sub(r\"\\s+\", \" \", str(value).strip())\n    return SUBJECT_ALIASES.get(name.casefold(), name)\ndef load_reference_tables() -> tuple[dict[str, list[str]], list[dict], dict[str, tuple[str, ...]]]:\n    \"\"\"Load the subject combinations, majors and Holland mapping tables.\"\"\"\n    combinations = pd.read_csv(DATA_DIR / \"to_hop_mon.csv\", encoding=\"utf-8\")",
+        "detail": "ai.data.gen_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "ai.model.final_models.read_results",
+        "description": "ai.model.final_models.read_results",
+        "peekOfCode": "results = joblib.load(r\"C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\model\\final_models\\2025\\cv_results_2025.pkl\")\ndf = pd.DataFrame(results)\nbest_row = df.loc[df[\"rank_test_f1\"].idxmin()]\nprint(\"Best parameters:\", best_row[\"params\"])\nprint(\"Accuracy:\", best_row[\"mean_test_accuracy\"])\nprint(\"F1:\", best_row[\"mean_test_f1\"])\nprint(\"Precision:\", best_row[\"mean_test_precision\"])\nprint(\"Recall:\", best_row[\"mean_test_recall\"])",
+        "detail": "ai.model.final_models.read_results",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "ai.model.final_models.read_results",
+        "description": "ai.model.final_models.read_results",
+        "peekOfCode": "df = pd.DataFrame(results)\nbest_row = df.loc[df[\"rank_test_f1\"].idxmin()]\nprint(\"Best parameters:\", best_row[\"params\"])\nprint(\"Accuracy:\", best_row[\"mean_test_accuracy\"])\nprint(\"F1:\", best_row[\"mean_test_f1\"])\nprint(\"Precision:\", best_row[\"mean_test_precision\"])\nprint(\"Recall:\", best_row[\"mean_test_recall\"])",
+        "detail": "ai.model.final_models.read_results",
+        "documentation": {}
+    },
+    {
+        "label": "best_row",
+        "kind": 5,
+        "importPath": "ai.model.final_models.read_results",
+        "description": "ai.model.final_models.read_results",
+        "peekOfCode": "best_row = df.loc[df[\"rank_test_f1\"].idxmin()]\nprint(\"Best parameters:\", best_row[\"params\"])\nprint(\"Accuracy:\", best_row[\"mean_test_accuracy\"])\nprint(\"F1:\", best_row[\"mean_test_f1\"])\nprint(\"Precision:\", best_row[\"mean_test_precision\"])\nprint(\"Recall:\", best_row[\"mean_test_recall\"])",
+        "detail": "ai.model.final_models.read_results",
         "documentation": {}
     },
     {
@@ -384,7 +1219,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test",
         "description": "ai.model.final_models.test",
-        "peekOfCode": "data = pd.read_csv('ai/model/final_models/dataset.csv')\nx = data.drop('NhomNganh', axis=1)\ny = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))",
+        "peekOfCode": "data = pd.read_csv(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\data\\2025\\dataset_balanced_holland_2025.csv')\n# data = pd.read_csv(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\data\\dataset_balanced_mbti.csv')\nx = data.drop('NhomNganh', axis=1)\ny = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\model\\final_models\\2025\\best_model_gbc_2025.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")",
         "detail": "ai.model.final_models.test",
         "documentation": {}
     },
@@ -393,7 +1228,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test",
         "description": "ai.model.final_models.test",
-        "peekOfCode": "x = data.drop('NhomNganh', axis=1)\ny = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")",
+        "peekOfCode": "x = data.drop('NhomNganh', axis=1)\ny = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\model\\final_models\\2025\\best_model_gbc_2025.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(10,10))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")",
         "detail": "ai.model.final_models.test",
         "documentation": {}
     },
@@ -402,7 +1237,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test",
         "description": "ai.model.final_models.test",
-        "peekOfCode": "y = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")",
+        "peekOfCode": "y = data[\"NhomNganh\"]\nx_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42 )\n# x_test = data[[\"MaToHop\", \"DiemToHop\", \"NhomTinhCach\"]]\n# y_true = data[\"NhomNganh\"]\nmodel = joblib.load(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\model\\final_models\\2025\\best_model_gbc_2025.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(10,10))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")",
         "detail": "ai.model.final_models.test",
         "documentation": {}
     },
@@ -411,7 +1246,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test",
         "description": "ai.model.final_models.test",
-        "peekOfCode": "model = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
+        "peekOfCode": "model = joblib.load(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\model\\final_models\\2025\\best_model_gbc_2025.pkl')\ny_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(10,10))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
         "detail": "ai.model.final_models.test",
         "documentation": {}
     },
@@ -420,7 +1255,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test",
         "description": "ai.model.final_models.test",
-        "peekOfCode": "y_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
+        "peekOfCode": "y_pred = model.predict(x_test)\ncm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(10,10))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
         "detail": "ai.model.final_models.test",
         "documentation": {}
     },
@@ -429,7 +1264,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test",
         "description": "ai.model.final_models.test",
-        "peekOfCode": "cm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(6,5))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
+        "peekOfCode": "cm = confusion_matrix(y_test, y_pred, normalize=\"true\")\nplt.figure(figsize=(10,10))\nsns.heatmap(cm, annot=True,  cmap=\"Blues\")\nplt.title(\"Confusion Matrix\")\nplt.xlabel(\"Predicted\")\nplt.ylabel(\"True\")\nplt.show()",
         "detail": "ai.model.final_models.test",
         "documentation": {}
     },
@@ -438,7 +1273,7 @@
         "kind": 5,
         "importPath": "ai.model.final_models.test1",
         "description": "ai.model.final_models.test1",
-        "peekOfCode": "model = joblib.load('ai/model/final_models/best_model_randomforest.pkl')\n# print(type(data))\n# print(data)\nma= input(\"Nhap vao ma to hop:\").strip()\ndiem= input(\"Nhap vao diem thi:\").strip()\ntinh_cach= input(\"Nhap vao tinh cach:\").strip()\npara = pd.DataFrame([{\n    \"MaToHop\": ma,\n    \"DiemToHop\":diem,\n    \"NhomTinhCach\": tinh_cach,",
+        "peekOfCode": "model = joblib.load(r'C:\\Users\\Duy\\Documents\\MyProject\\nienLuanCoSo\\backend_NLCS\\ai\\model\\train_model\\best_model_randomforest_mbti.pkl')\n# print(type(data))\n# print(data)\nma= input(\"Nhap vao ma to hop:\").strip()\ndiem= input(\"Nhap vao diem thi:\").strip()\ntinh_cach= input(\"Nhap vao tinh cach:\").strip()\npara = pd.DataFrame([{\n    \"MaToHop\": ma,\n    \"DiemToHop\":diem,\n    \"NhomTinhCach\": tinh_cach,",
         "detail": "ai.model.final_models.test1",
         "documentation": {}
     },
@@ -461,11 +1296,47 @@
         "documentation": {}
     },
     {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "parser = argparse.ArgumentParser()\nparser.add_argument(\"--year\", choices=[\"2025\", \"2026\", \"mixed\"], default=\"2025\")\nparser.add_argument(\"--dataset\", type=Path, default=None)\nargs = parser.parse_args()\nDATA_DIR = Path(__file__).resolve().parents[2] / \"data\"\ndataset_path = args.dataset or (DATA_DIR / args.year / f\"dataset_balanced_holland_{args.year}.csv\")\nif not dataset_path.exists():\n    raise FileNotFoundError(\n        f\"Không tìm thấy dataset: {dataset_path}. Hãy chạy gen_dataset.py --year {args.year} trước.\"\n    )",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "args = parser.parse_args()\nDATA_DIR = Path(__file__).resolve().parents[2] / \"data\"\ndataset_path = args.dataset or (DATA_DIR / args.year / f\"dataset_balanced_holland_{args.year}.csv\")\nif not dataset_path.exists():\n    raise FileNotFoundError(\n        f\"Không tìm thấy dataset: {dataset_path}. Hãy chạy gen_dataset.py --year {args.year} trước.\"\n    )\ndata = pd.read_csv(dataset_path)\n#Create feature and target variable\ntarget= \"NhomNganh\"",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "DATA_DIR = Path(__file__).resolve().parents[2] / \"data\"\ndataset_path = args.dataset or (DATA_DIR / args.year / f\"dataset_balanced_holland_{args.year}.csv\")\nif not dataset_path.exists():\n    raise FileNotFoundError(\n        f\"Không tìm thấy dataset: {dataset_path}. Hãy chạy gen_dataset.py --year {args.year} trước.\"\n    )\ndata = pd.read_csv(dataset_path)\n#Create feature and target variable\ntarget= \"NhomNganh\"\nx= data.drop(target, axis= 1) #bo cot label",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "dataset_path",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "dataset_path = args.dataset or (DATA_DIR / args.year / f\"dataset_balanced_holland_{args.year}.csv\")\nif not dataset_path.exists():\n    raise FileNotFoundError(\n        f\"Không tìm thấy dataset: {dataset_path}. Hãy chạy gen_dataset.py --year {args.year} trước.\"\n    )\ndata = pd.read_csv(dataset_path)\n#Create feature and target variable\ntarget= \"NhomNganh\"\nx= data.drop(target, axis= 1) #bo cot label\ny= data[target] #label",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
         "label": "data",
         "kind": 5,
         "importPath": "ai.model.train_model.train",
         "description": "ai.model.train_model.train",
-        "peekOfCode": "data = pd.read_csv('ai/model/final_models/dataset.csv')\n#Create feature and target variable\ntarget= \"NhomNganh\"\nx= data.drop(target, axis= 1) #bo cot label\ny= data[target] #label\n#Split\nnumerical_cols = [\"DiemToHop\"]\ncategorial_cols = [\"MaToHop\", \"NhomTinhCach\"]\n#Start PipeLine w/ Encoding\nnumerical_pipeline = Pipeline([",
+        "peekOfCode": "data = pd.read_csv(dataset_path)\n#Create feature and target variable\ntarget= \"NhomNganh\"\nx= data.drop(target, axis= 1) #bo cot label\ny= data[target] #label\n#Split\nnumerical_cols = [\"DiemToHop\"]\ncategorial_cols = [\"MaToHop\", \"NhomTinhCach\"]\n#Start PipeLine w/ Encoding\nnumerical_pipeline = Pipeline([",
         "detail": "ai.model.train_model.train",
         "documentation": {}
     },
@@ -510,7 +1381,7 @@
         "kind": 5,
         "importPath": "ai.model.train_model.train",
         "description": "ai.model.train_model.train",
-        "peekOfCode": "pipe = Pipeline([\n    ('preprocessor', preprocessor),\n    ('select', SelectKBest(k=10)),\n    ('model', RandomForestClassifier()),\n])\n#Train model\n#Gom cac model lai\n# models = {\n#     \"LogisticRegression\": LogisticRegression(),\n#     \"RandomForest\": RandomForestClassifier(),",
+        "peekOfCode": "pipe = Pipeline([\n    ('preprocessor', preprocessor),\n    ('select', SelectKBest(k=10)),\n    ('model', GradientBoostingClassifier()),\n])\n#Train model\n#Gom cac model lai\n# models = {\n#     \"LogisticRegression\": LogisticRegression(max_iter=1000, random_state=42),\n#     \"RandomForest\": RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1),",
         "detail": "ai.model.train_model.train",
         "documentation": {}
     },
@@ -519,7 +1390,7 @@
         "kind": 5,
         "importPath": "ai.model.train_model.train",
         "description": "ai.model.train_model.train",
-        "peekOfCode": "results = {}\nparam_grid = {\n    'model__n_estimators': [100, 200],\n    'model__max_depth': [None, 20],\n    'model__min_samples_split': [2, 5],\n    'model__min_samples_leaf': [1, 2],\n    'select__k': [5, 10],\n}\ngrid  = RandomizedSearchCV(\n    pipe,",
+        "peekOfCode": "results = {}\nparam_grid = {\n    'model__n_estimators': [100, 200],\n    \"model__learning_rate\": [0.03, 0.05],\n    'model__max_depth': [2,3],\n    'model__min_samples_split': [2, 5],\n    'model__min_samples_leaf': [1, 2],\n    'select__k': [5, 10],\n}\ngrid  = RandomizedSearchCV(",
         "detail": "ai.model.train_model.train",
         "documentation": {}
     },
@@ -528,134 +1399,665 @@
         "kind": 5,
         "importPath": "ai.model.train_model.train",
         "description": "ai.model.train_model.train",
-        "peekOfCode": "param_grid = {\n    'model__n_estimators': [100, 200],\n    'model__max_depth': [None, 20],\n    'model__min_samples_split': [2, 5],\n    'model__min_samples_leaf': [1, 2],\n    'select__k': [5, 10],\n}\ngrid  = RandomizedSearchCV(\n    pipe,\n    param_distributions=param_grid,",
+        "peekOfCode": "param_grid = {\n    'model__n_estimators': [100, 200],\n    \"model__learning_rate\": [0.03, 0.05],\n    'model__max_depth': [2,3],\n    'model__min_samples_split': [2, 5],\n    'model__min_samples_leaf': [1, 2],\n    'select__k': [5, 10],\n}\ngrid  = RandomizedSearchCV(\n    pipe,",
         "detail": "ai.model.train_model.train",
         "documentation": {}
     },
     {
-        "label": "tinh_to_hop",
+        "label": "MODEL_DIR",
+        "kind": 5,
+        "importPath": "ai.model.train_model.train",
+        "description": "ai.model.train_model.train",
+        "peekOfCode": "MODEL_DIR = Path(__file__).resolve().parents[1] / \"final_models\" / args.year\nMODEL_DIR.mkdir(parents=True, exist_ok=True)\njoblib.dump(grid.best_estimator_, MODEL_DIR / f\"best_model_gbc_{args.year}.pkl\")\njoblib.dump(grid.cv_results_, MODEL_DIR / f\"cv_results_{args.year}.pkl\")\n# cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)\n# for name, model in models.items():\n#     pipe.set_params(model= model)\n#     print(f\"\\nĐang đánh giá {name} trên dataset {args.year}...\")\n#     result = cross_validate(\n#         pipe,",
+        "detail": "ai.model.train_model.train",
+        "documentation": {}
+    },
+    {
+        "label": "read_benchmarks",
         "kind": 2,
-        "importPath": "convert_Tohop",
-        "description": "convert_Tohop",
-        "peekOfCode": "def tinh_to_hop(ds_mon, ds_diem, to_hop):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,\n                \"MonHoc\":list(mon_hoc),\n                \"DiemToHop\": tong_diem",
-        "detail": "convert_Tohop",
+        "importPath": "ai.model.train_model.visualize_benchmarks",
+        "description": "ai.model.train_model.visualize_benchmarks",
+        "peekOfCode": "def read_benchmarks(input_dir: Path) -> dict[str, pd.DataFrame]:\n    files = sorted(input_dir.glob(\"comparison_*.csv\"))\n    if not files:\n        raise FileNotFoundError(f\"Không tìm thấy comparison_*.csv trong {input_dir}\")\n    benchmarks = {}\n    for path in files:\n        frame = pd.read_csv(path)\n        if frame.empty or len(frame.columns) < 2:\n            continue\n        # train.py writes the algorithm name as the first CSV column.",
+        "detail": "ai.model.train_model.visualize_benchmarks",
         "documentation": {}
     },
     {
-        "label": "user_subjects",
-        "kind": 5,
-        "importPath": "convert_Tohop",
-        "description": "convert_Tohop",
-        "peekOfCode": "user_subjects = [\"Toan\", \"Vat li\", \"Hoa hoc\", \"Tieng Anh\"]\nsubject_scores = {\n    \"Toan\": 9.0,\n    \"Vat li\": 8.5,\n    \"Hoa hoc\": 7.0,\n    \"Tieng Anh\": 6.5\n}\ndef tinh_to_hop(ds_mon, ds_diem, to_hop):\n    ds_mon= set(ds_mon)\n    results = []",
-        "detail": "convert_Tohop",
+        "label": "metric_names",
+        "kind": 2,
+        "importPath": "ai.model.train_model.visualize_benchmarks",
+        "description": "ai.model.train_model.visualize_benchmarks",
+        "peekOfCode": "def metric_names(frame: pd.DataFrame) -> list[str]:\n    return [column.removesuffix(\"_mean\") for column in frame.columns if column.endswith(\"_mean\")]\ndef plot_dataset(dataset: str, frame: pd.DataFrame, output_dir: Path) -> Path:\n    metrics = metric_names(frame)\n    if not metrics:\n        raise ValueError(f\"{dataset}: không có cột *_mean\")\n    sort_column = \"accuracy_mean\" if \"accuracy_mean\" in frame else f\"{metrics[0]}_mean\"\n    frame = frame.sort_values(sort_column, ascending=False)\n    algorithms = frame.index.astype(str).tolist()\n    x = np.arange(len(algorithms))",
+        "detail": "ai.model.train_model.visualize_benchmarks",
         "documentation": {}
     },
     {
-        "label": "subject_scores",
-        "kind": 5,
-        "importPath": "convert_Tohop",
-        "description": "convert_Tohop",
-        "peekOfCode": "subject_scores = {\n    \"Toan\": 9.0,\n    \"Vat li\": 8.5,\n    \"Hoa hoc\": 7.0,\n    \"Tieng Anh\": 6.5\n}\ndef tinh_to_hop(ds_mon, ds_diem, to_hop):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():",
-        "detail": "convert_Tohop",
+        "label": "plot_dataset",
+        "kind": 2,
+        "importPath": "ai.model.train_model.visualize_benchmarks",
+        "description": "ai.model.train_model.visualize_benchmarks",
+        "peekOfCode": "def plot_dataset(dataset: str, frame: pd.DataFrame, output_dir: Path) -> Path:\n    metrics = metric_names(frame)\n    if not metrics:\n        raise ValueError(f\"{dataset}: không có cột *_mean\")\n    sort_column = \"accuracy_mean\" if \"accuracy_mean\" in frame else f\"{metrics[0]}_mean\"\n    frame = frame.sort_values(sort_column, ascending=False)\n    algorithms = frame.index.astype(str).tolist()\n    x = np.arange(len(algorithms))\n    width = 0.8 / len(metrics)\n    fig, ax = plt.subplots(figsize=(max(10, len(algorithms) * 1.7), 6))",
+        "detail": "ai.model.train_model.visualize_benchmarks",
         "documentation": {}
     },
     {
-        "label": "df",
-        "kind": 5,
-        "importPath": "convert_Tohop",
-        "description": "convert_Tohop",
-        "peekOfCode": "df = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nTO_HOP = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndf_out = pd.DataFrame.from_dict(TO_HOP, orient=\"index\")\n# print(df_out)\nprint(tinh_to_hop(user_subjects,subject_scores,TO_HOP ))",
-        "detail": "convert_Tohop",
+        "label": "plot_overview",
+        "kind": 2,
+        "importPath": "ai.model.train_model.visualize_benchmarks",
+        "description": "ai.model.train_model.visualize_benchmarks",
+        "peekOfCode": "def plot_overview(benchmarks: dict[str, pd.DataFrame], output_dir: Path) -> Path:\n    rows = []\n    for dataset, frame in benchmarks.items():\n        for algorithm, values in frame.iterrows():\n            rows.append({\n                \"Dataset\": dataset,\n                \"Algorithm\": algorithm,\n                \"Accuracy\": values.get(\"accuracy_mean\", np.nan),\n                \"F1\": values.get(\"f1_mean\", np.nan),\n            })",
+        "detail": "ai.model.train_model.visualize_benchmarks",
         "documentation": {}
     },
     {
-        "label": "TO_HOP",
-        "kind": 5,
-        "importPath": "convert_Tohop",
-        "description": "convert_Tohop",
-        "peekOfCode": "TO_HOP = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndf_out = pd.DataFrame.from_dict(TO_HOP, orient=\"index\")\n# print(df_out)\nprint(tinh_to_hop(user_subjects,subject_scores,TO_HOP ))",
-        "detail": "convert_Tohop",
+        "label": "main",
+        "kind": 2,
+        "importPath": "ai.model.train_model.visualize_benchmarks",
+        "description": "ai.model.train_model.visualize_benchmarks",
+        "peekOfCode": "def main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--input-dir\", type=Path, default=DEFAULT_INPUT_DIR)\n    parser.add_argument(\"--output-dir\", type=Path, default=None)\n    args = parser.parse_args()\n    output_dir = args.output_dir or (args.input_dir / \"plots\")\n    output_dir.mkdir(parents=True, exist_ok=True)\n    benchmarks = read_benchmarks(args.input_dir)\n    outputs = [plot_dataset(dataset, frame, output_dir) for dataset, frame in benchmarks.items()]\n    outputs.append(plot_overview(benchmarks, output_dir))",
+        "detail": "ai.model.train_model.visualize_benchmarks",
         "documentation": {}
     },
     {
-        "label": "df_out",
+        "label": "DEFAULT_INPUT_DIR",
         "kind": 5,
-        "importPath": "convert_Tohop",
-        "description": "convert_Tohop",
-        "peekOfCode": "df_out = pd.DataFrame.from_dict(TO_HOP, orient=\"index\")\n# print(df_out)\nprint(tinh_to_hop(user_subjects,subject_scores,TO_HOP ))",
-        "detail": "convert_Tohop",
+        "importPath": "ai.model.train_model.visualize_benchmarks",
+        "description": "ai.model.train_model.visualize_benchmarks",
+        "peekOfCode": "DEFAULT_INPUT_DIR = Path(__file__).resolve().parents[1] / \"benchmark_results\"\ndef read_benchmarks(input_dir: Path) -> dict[str, pd.DataFrame]:\n    files = sorted(input_dir.glob(\"comparison_*.csv\"))\n    if not files:\n        raise FileNotFoundError(f\"Không tìm thấy comparison_*.csv trong {input_dir}\")\n    benchmarks = {}\n    for path in files:\n        frame = pd.read_csv(path)\n        if frame.empty or len(frame.columns) < 2:\n            continue",
+        "detail": "ai.model.train_model.visualize_benchmarks",
         "documentation": {}
     },
     {
         "label": "PredictRequest",
         "kind": 6,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "class PredictRequest(BaseModel):\n    subjects: List[str]\n    scores: Dict[str, float]\n    holland: str\n@app.post(\"/predict\")\ndef predict_group_major(data: PredictRequest):\n    subjects = data.subjects    \n    scores = data.scores        \n    nhom_tc = data.holland      \n    list_to_hop = tinh_to_hop(subjects, scores)",
-        "detail": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "class PredictRequest(BaseModel):\n    subjects: List[str]\n    scores: Dict[str, float]\n    holland: str\nclass Question(BaseModel):\n    group_major:str\n    describe:str\ndef get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "Question",
+        "kind": 6,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "class Question(BaseModel):\n    group_major:str\n    describe:str\ndef get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:\n        llm = GeminiLLM().get_llm()\n        embed_model = BGE_M3_Embedding().get_model()\n        chroma_store = ChromaStore()\n        vector_index = VectorStoreIndex.from_vector_store(",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "tinh_to_hop",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
         "peekOfCode": "def tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,\n                \"DiemToHop\": tong_diem\n            })",
-        "detail": "main",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "call_model",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def call_model(list_results, nhom_tc):\n    kq = []\n    for item in list_results:\n        df = pd.DataFrame([{\n            \"MaToHop\": item[\"MaToHop\"],\n            \"DiemToHop\": item[\"DiemToHop\"],\n            \"NhomTinhCach\": nhom_tc\n        }])\n        pred = model.predict(df)[0]\n        kq.append({",
-        "detail": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "def call_model(list_results, nhom_tc):\n    kq = []\n    for item in list_results:\n        df = pd.DataFrame([{\n            \"MaToHop\": item[\"MaToHop\"],\n            \"DiemToHop\": item[\"DiemToHop\"],\n            \"NhomTinhCach\": nhom_tc\n        }])\n        probs = model.predict_proba(df)[0]\n        top3_idx = np.argsort(probs)[::-1][:3]",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_rag_pipeline",
+        "kind": 2,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "def get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:\n        llm = GeminiLLM().get_llm()\n        embed_model = BGE_M3_Embedding().get_model()\n        chroma_store = ChromaStore()\n        vector_index = VectorStoreIndex.from_vector_store(\n            vector_store=chroma_store.vector_store,\n            embed_model=embed_model,\n        )",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "def home():\n    return {\n        \"status\":\"running\",\n        \"model_year\": MODEL_YEAR,\n    }\n@app.post(\"/predict\")\ndef predict_group_major(data: PredictRequest):\n    subjects = data.subjects    \n    scores = data.scores        \n    nhom_tc = data.holland      ",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "predict_group_major",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
         "peekOfCode": "def predict_group_major(data: PredictRequest):\n    subjects = data.subjects    \n    scores = data.scores        \n    nhom_tc = data.holland      \n    list_to_hop = tinh_to_hop(subjects, scores)\n    result = call_model(list_to_hop, nhom_tc)\n    return {\n        \"input\": data,\n        \"recommendations\": result\n    }",
-        "detail": "main",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 2,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "def chat(q:Question):\n    question = f\"{q.group_major}\\n{q.describe}\"\n    pipeline = get_rag_pipeline()\n    contexts = pipeline[\"retriever\"].retrieve(question)\n    answer = pipeline[\"answer_generator\"].generate(question, contexts)\n    return {\n        \"answer\": answer\n    }",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "app = FastAPI()\nmodel = joblib.load(\"ai/model/final_models/best_model_randomforest.pkl\")\ndf = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)",
-        "detail": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "app = FastAPI()\nrag_pipeline = None\nBACKEND_DIR = Path(__file__).resolve().parents[2]\n# MODEL_YEAR = os.getenv(\"MODEL_YEAR\", \"2025\")\nMODEL_YEAR = \"2025\"\nMODEL_FILES = {\n    \"2025\": \"best_model_gbc_2025.pkl\",\n    \"2026\": \"best_model_gbc_2026.pkl\",\n    \"mixed\": \"best_model_randomforest_mixed.pkl\",\n}",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "rag_pipeline",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "rag_pipeline = None\nBACKEND_DIR = Path(__file__).resolve().parents[2]\n# MODEL_YEAR = os.getenv(\"MODEL_YEAR\", \"2025\")\nMODEL_YEAR = \"2025\"\nMODEL_FILES = {\n    \"2025\": \"best_model_gbc_2025.pkl\",\n    \"2026\": \"best_model_gbc_2026.pkl\",\n    \"mixed\": \"best_model_randomforest_mixed.pkl\",\n}\nif MODEL_YEAR not in MODEL_FILES:",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "BACKEND_DIR = Path(__file__).resolve().parents[2]\n# MODEL_YEAR = os.getenv(\"MODEL_YEAR\", \"2025\")\nMODEL_YEAR = \"2025\"\nMODEL_FILES = {\n    \"2025\": \"best_model_gbc_2025.pkl\",\n    \"2026\": \"best_model_gbc_2026.pkl\",\n    \"mixed\": \"best_model_randomforest_mixed.pkl\",\n}\nif MODEL_YEAR not in MODEL_FILES:\n    raise ValueError(\"MODEL_YEAR phải là 2025, 2026 hoặc mixed\")",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_YEAR",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "MODEL_YEAR = \"2025\"\nMODEL_FILES = {\n    \"2025\": \"best_model_gbc_2025.pkl\",\n    \"2026\": \"best_model_gbc_2026.pkl\",\n    \"mixed\": \"best_model_randomforest_mixed.pkl\",\n}\nif MODEL_YEAR not in MODEL_FILES:\n    raise ValueError(\"MODEL_YEAR phải là 2025, 2026 hoặc mixed\")\nmodel_path = (\n    BACKEND_DIR / \"ai\" / \"model\" / \"final_models\"",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_FILES",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "MODEL_FILES = {\n    \"2025\": \"best_model_gbc_2025.pkl\",\n    \"2026\": \"best_model_gbc_2026.pkl\",\n    \"mixed\": \"best_model_randomforest_mixed.pkl\",\n}\nif MODEL_YEAR not in MODEL_FILES:\n    raise ValueError(\"MODEL_YEAR phải là 2025, 2026 hoặc mixed\")\nmodel_path = (\n    BACKEND_DIR / \"ai\" / \"model\" / \"final_models\"\n    / MODEL_YEAR / MODEL_FILES[MODEL_YEAR]",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "model_path",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "model_path = (\n    BACKEND_DIR / \"ai\" / \"model\" / \"final_models\"\n    / MODEL_YEAR / MODEL_FILES[MODEL_YEAR]\n)\nmodel = joblib.load(model_path)\nclasses = model.classes_\ndf = pd.read_csv(BACKEND_DIR / \"ai\" / \"data\" / \"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\norigins = [\n    \"http://localhost:5173\",  ",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "model",
         "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "model = joblib.load(\"ai/model/final_models/best_model_randomforest.pkl\")\ndf = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({",
-        "detail": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "model = joblib.load(model_path)\nclasses = model.classes_\ndf = pd.read_csv(BACKEND_DIR / \"ai\" / \"data\" / \"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\norigins = [\n    \"http://localhost:5173\",  \n    \"http://127.0.0.1:5173\",\n    \"https://guessyourjob.vercel.app\",\n]\napp.add_middleware(",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "classes",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "classes = model.classes_\ndf = pd.read_csv(BACKEND_DIR / \"ai\" / \"data\" / \"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\norigins = [\n    \"http://localhost:5173\",  \n    \"http://127.0.0.1:5173\",\n    \"https://guessyourjob.vercel.app\",\n]\napp.add_middleware(\n    CORSMiddleware,",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "df",
         "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "df = pd.read_csv(\"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,",
-        "detail": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "df = pd.read_csv(BACKEND_DIR / \"ai\" / \"data\" / \"to_hop_mon.csv\", encoding=\"utf-8\")\nto_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\norigins = [\n    \"http://localhost:5173\",  \n    \"http://127.0.0.1:5173\",\n    \"https://guessyourjob.vercel.app\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,",
+        "detail": "graphRAG.api.main",
         "documentation": {}
     },
     {
         "label": "to_hop",
         "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "to_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\ndef tinh_to_hop(ds_mon, ds_diem):\n    ds_mon= set(ds_mon)\n    results = []\n    for ma_to_hop, mon_hoc in to_hop.items():\n        if mon_hoc.issubset(ds_mon):\n            tong_diem = sum(ds_diem[m] for m in mon_hoc)\n            results.append({\n                \"MaToHop\":ma_to_hop,\n                \"DiemToHop\": tong_diem",
-        "detail": "main",
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "to_hop = df.groupby(\"MaToHop\")[\"MonHoc\"].apply(set).to_dict()\norigins = [\n    \"http://localhost:5173\",  \n    \"http://127.0.0.1:5173\",\n    \"https://guessyourjob.vercel.app\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "graphRAG.api.main",
+        "description": "graphRAG.api.main",
+        "peekOfCode": "origins = [\n    \"http://localhost:5173\",  \n    \"http://127.0.0.1:5173\",\n    \"https://guessyourjob.vercel.app\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "graphRAG.api.main",
+        "documentation": {}
+    },
+    {
+        "label": "BGE_M3_Embedding",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.embedding.bge_m3",
+        "description": "graphRAG.indexing.embedding.bge_m3",
+        "peekOfCode": "class BGE_M3_Embedding:\n    def __init__(self):\n        self.embed_model = HuggingFaceEmbedding(\n            model_name=\"BAAI/bge-m3\"\n        )\n        Settings.embed_model = self.embed_model\n    def get_model(self):\n        return self.embed_model",
+        "detail": "graphRAG.indexing.embedding.bge_m3",
+        "documentation": {}
+    },
+    {
+        "label": "GraphBuilder",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.graph.graph_builder",
+        "description": "graphRAG.indexing.graph.graph_builder",
+        "peekOfCode": "class GraphBuilder:\n    def __init__(self, llm, embed_model, graph_store):\n        self.llm = llm\n        self.embed_model = embed_model\n        self.graph_store = graph_store\n    def build(self, nodes):\n        print(\"GraphBuilder bat dau\")\n        extractor = SchemaLLMPathExtractor(\n            llm=self.llm, \n            possible_entities=POSSIBLE_ENTITIES, #sau nay qua file kia sua schema la duoc",
+        "detail": "graphRAG.indexing.graph.graph_builder",
+        "documentation": {}
+    },
+    {
+        "label": "POSSIBLE_ENTITIES",
+        "kind": 5,
+        "importPath": "graphRAG.indexing.graph.graph_schema",
+        "description": "graphRAG.indexing.graph.graph_schema",
+        "peekOfCode": "POSSIBLE_ENTITIES = Literal[\n    \"Major\",\n    \"MajorGroup\",\n    \"HollandType\",\n    \"Skill\",\n    \"Subject\",\n    \"Career\",\n]\nPOSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",",
+        "detail": "graphRAG.indexing.graph.graph_schema",
+        "documentation": {}
+    },
+    {
+        "label": "POSSIBLE_RELATIONS",
+        "kind": 5,
+        "importPath": "graphRAG.indexing.graph.graph_schema",
+        "description": "graphRAG.indexing.graph.graph_schema",
+        "peekOfCode": "POSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",\n    \"MATCHES_HOLLAND\",\n    \"REQUIRES_SKILL\",\n    \"USES_SUBJECT\",\n    \"LEADS_TO_CAREER\",\n]",
+        "detail": "graphRAG.indexing.graph.graph_schema",
+        "documentation": {}
+    },
+    {
+        "label": "GraphStore",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.graph.graph_store",
+        "description": "graphRAG.indexing.graph.graph_store",
+        "peekOfCode": "class GraphStore:\n    def __init__(self):\n        self.graph_store = Neo4jPropertyGraphStore(\n            username=os.getenv(\"NEO4J_USERNAME\"),\n            password=os.getenv(\"NEO4J_PASSWORD\"),\n            url=os.getenv(\"NEO4J_URI\"),\n            database=os.getenv(\"NEO4J_DATABASE\", \"neo4j\"),\n            refresh_schema=False,\n        )\n    def get_store(self):",
+        "detail": "graphRAG.indexing.graph.graph_store",
+        "documentation": {}
+    },
+    {
+        "label": "GRAPH_RAG_DIR",
+        "kind": 5,
+        "importPath": "graphRAG.indexing.graph.graph_store",
+        "description": "graphRAG.indexing.graph.graph_store",
+        "peekOfCode": "GRAPH_RAG_DIR = Path(__file__).resolve().parents[2]\nload_dotenv(GRAPH_RAG_DIR / \".env\")\nclass GraphStore:\n    def __init__(self):\n        self.graph_store = Neo4jPropertyGraphStore(\n            username=os.getenv(\"NEO4J_USERNAME\"),\n            password=os.getenv(\"NEO4J_PASSWORD\"),\n            url=os.getenv(\"NEO4J_URI\"),\n            database=os.getenv(\"NEO4J_DATABASE\", \"neo4j\"),\n            refresh_schema=False,",
+        "detail": "graphRAG.indexing.graph.graph_store",
+        "documentation": {}
+    },
+    {
+        "label": "MetadataExtractor",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.metadata.extractor",
+        "description": "graphRAG.indexing.metadata.extractor",
+        "peekOfCode": "class MetadataExtractor:\n    def __init__(self, llm):\n        self.pipeline = IngestionPipeline(\n            transformations=[\n                TitleExtractor(nodes=3, llm=llm),\n                KeywordExtractor(keywords=3, llm=llm),\n                SummaryExtractor(summaries=[\"self\"], llm=llm),\n            ]\n        )\n    def extract(self, nodes):",
+        "detail": "graphRAG.indexing.metadata.extractor",
+        "documentation": {}
+    },
+    {
+        "label": "MarkdownParser",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.parser.markdown_parser",
+        "description": "graphRAG.indexing.parser.markdown_parser",
+        "peekOfCode": "class MarkdownParser:\n    def __init__(self):\n        self.parser = MarkdownNodeParser()\n    def parse(self, documents: list[Document]) -> list[BaseNode]:\n        return self.parser.get_nodes_from_documents(documents)\n#Cai nay de thu nghiem thoi\n#chu van uu tien chia theo ngu nghia",
+        "detail": "graphRAG.indexing.parser.markdown_parser",
+        "documentation": {}
+    },
+    {
+        "label": "SemanticParser",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.parser.semantic_parser",
+        "description": "graphRAG.indexing.parser.semantic_parser",
+        "peekOfCode": "class SemanticParser:\n    def __init__(self, embed_model):\n        self.parser = SemanticSplitterNodeParser( # cach nay ngon chim hon nhieu\n            embed_model=embed_model, #truyen model tu thu muc embedding\n            buffer_size=1,\n            breakpoint_percentile_threshold=95,\n        )\n    def parse(self, documents: list[Document]) -> list[BaseNode]:\n        return self.parser.get_nodes_from_documents(documents)",
+        "detail": "graphRAG.indexing.parser.semantic_parser",
+        "documentation": {}
+    },
+    {
+        "label": "ChromaStore",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.vector.chroma",
+        "description": "graphRAG.indexing.vector.chroma",
+        "peekOfCode": "class ChromaStore:\n    def __init__(\n        self,\n        db_path: str | None = None,\n        collection_name: str = \"ctu_majors\"\n    ):\n        if db_path is None:\n            db_path = str(Path(__file__).resolve().parents[2] / \"database\" / \"chroma_db\")\n        self.client = chromadb.PersistentClient(path=db_path)\n        self.collection = self.client.get_or_create_collection(",
+        "detail": "graphRAG.indexing.vector.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "BuildIndex",
+        "kind": 6,
+        "importPath": "graphRAG.indexing.build_index",
+        "description": "graphRAG.indexing.build_index",
+        "peekOfCode": "class BuildIndex:\n    def __init__(self):\n        backend_dir = Path(__file__).resolve().parents[2]\n        major_file = (\n            backend_dir / \"old_rag\" / \"rag\" / \"app\"\n            / \"google_model\" / \"ctu_majors.json\"\n        )\n        self.loader = MajorLoader(major_file)\n        self.cleaner = TextCleaner()\n        self.normalizer = TextNormalizer()",
+        "detail": "graphRAG.indexing.build_index",
+        "documentation": {}
+    },
+    {
+        "label": "MajorLoader",
+        "kind": 6,
+        "importPath": "graphRAG.ingestion.loader.load_majors",
+        "description": "graphRAG.ingestion.loader.load_majors",
+        "peekOfCode": "class MajorLoader:\n    \"\"\"Đọc dữ liệu ngành học đang được old_rag sử dụng.\"\"\"\n    def __init__(self, json_file: Path):\n        self.json_file = json_file\n    def load(self) -> list[Document]:\n        items = json.loads(self.json_file.read_text(encoding=\"utf-8\"))\n        return [\n            Document(\n                text=item[\"noi_dung\"],\n                metadata={",
+        "detail": "graphRAG.ingestion.loader.load_majors",
+        "documentation": {}
+    },
+    {
+        "label": "TextCleaner",
+        "kind": 6,
+        "importPath": "graphRAG.ingestion.processes.clean_text",
+        "description": "graphRAG.ingestion.processes.clean_text",
+        "peekOfCode": "class TextCleaner:\n    def clean(self, text: str) -> str:\n        text = text.replace(\"\\ufeff\", \"\")\n        # doi may cai tab thanh space\n        text = text.replace(\"\\t\", \" \")\n        # bo khoang trang cuoi dong\n        text = re.sub(r\"[ \\t]+$\", \"\", text, flags=re.MULTILINE)\n        # neu ma nhieu dong trong thi de thanh 2 dong thoi\n        text = re.sub(r\"\\n{3,}\", \"\\n\\n\", text)\n        # nhiều space liên tiếp",
+        "detail": "graphRAG.ingestion.processes.clean_text",
+        "documentation": {}
+    },
+    {
+        "label": "TextNormalizer",
+        "kind": 6,
+        "importPath": "graphRAG.ingestion.processes.normalize",
+        "description": "graphRAG.ingestion.processes.normalize",
+        "peekOfCode": "class TextNormalizer:\n    def normalize(self, text: str) -> str:\n        text = unicodedata.normalize(\n            \"NFC\",\n            text\n        )\n        return text",
+        "detail": "graphRAG.ingestion.processes.normalize",
+        "documentation": {}
+    },
+    {
+        "label": "IngestionPipeline",
+        "kind": 6,
+        "importPath": "graphRAG.ingestion.pipeline",
+        "description": "graphRAG.ingestion.pipeline",
+        "peekOfCode": "class IngestionPipeline:\n    def __init__(self):\n        self.cleaner = TextCleaner()\n        self.normalizer = TextNormalizer()\n    def run(self, documents):\n        processed_documents = []\n        for doc in documents:\n            text = self.cleaner.clean(doc.text)\n            text = self.normalizer.normalize(text)\n            doc.text = text",
+        "detail": "graphRAG.ingestion.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "AnswerGenerator",
+        "kind": 6,
+        "importPath": "graphRAG.llm.answer_generator",
+        "description": "graphRAG.llm.answer_generator",
+        "peekOfCode": "class AnswerGenerator:\n    def __init__(self, llm=None):\n        self.llm = llm or GeminiLLM().get_llm()\n    def generate(self, question: str, contexts) -> str:\n        context = \"\\n\\n\".join(\n            getattr(item, \"text\", str(item)) for item in contexts\n        )\n        prompt = build_prompt(\n            context=context,\n            question=question,",
+        "detail": "graphRAG.llm.answer_generator",
+        "documentation": {}
+    },
+    {
+        "label": "LLM_PROVIDER",
+        "kind": 5,
+        "importPath": "graphRAG.llm.config",
+        "description": "graphRAG.llm.config",
+        "peekOfCode": "LLM_PROVIDER = \"gemini\"\nMODEL_NAME = \"gemini-3.1-flash-lite\"\nAPI_KEY =os.getenv(\"GOOGLE_API_KEY\")",
+        "detail": "graphRAG.llm.config",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_NAME",
+        "kind": 5,
+        "importPath": "graphRAG.llm.config",
+        "description": "graphRAG.llm.config",
+        "peekOfCode": "MODEL_NAME = \"gemini-3.1-flash-lite\"\nAPI_KEY =os.getenv(\"GOOGLE_API_KEY\")",
+        "detail": "graphRAG.llm.config",
+        "documentation": {}
+    },
+    {
+        "label": "CustomLLM",
+        "kind": 6,
+        "importPath": "graphRAG.llm.custom",
+        "description": "graphRAG.llm.custom",
+        "peekOfCode": "class CustomLLM:\n    def __init__(self):\n        self.llm = OpenAILike(\n            model=\"Combomodel\",\n            api_base=\"http://localhost:20128/v1\",\n            api_key=os.getenv(\"NVIDIA_API_KEY\"),\n            is_chat_model=True,\n            is_function_calling_model=False,\n            pydantic_program_mode=PydanticProgramMode.LLM,  # them dong nay\n            context_window=16384,",
+        "detail": "graphRAG.llm.custom",
+        "documentation": {}
+    },
+    {
+        "label": "GeminiLLM",
+        "kind": 6,
+        "importPath": "graphRAG.llm.gemini",
+        "description": "graphRAG.llm.gemini",
+        "peekOfCode": "class GeminiLLM:\n    def __init__(self):\n        self.llm = GoogleGenAI(\n            model=MODEL_NAME,\n            api_key=API_KEY,\n        )\n        Settings.llm = self.llm\n    def get_llm(self):\n        return self.llm\nGemini = GeminiLLM",
+        "detail": "graphRAG.llm.gemini",
+        "documentation": {}
+    },
+    {
+        "label": "Gemini",
+        "kind": 5,
+        "importPath": "graphRAG.llm.gemini",
+        "description": "graphRAG.llm.gemini",
+        "peekOfCode": "Gemini = GeminiLLM",
+        "detail": "graphRAG.llm.gemini",
+        "documentation": {}
+    },
+    {
+        "label": "OllamaLLM",
+        "kind": 6,
+        "importPath": "graphRAG.llm.ollama",
+        "description": "graphRAG.llm.ollama",
+        "peekOfCode": "class OllamaLLM:\n    def __init__(self):\n        self.llm = Ollama(\n            model=\"qwen2.5:7b\",\n            request_timeout=300,\n        )\n        Settings.llm = self.llm\n    def get_llm(self):\n        return self.llm",
+        "detail": "graphRAG.llm.ollama",
+        "documentation": {}
+    },
+    {
+        "label": "build_prompt",
+        "kind": 2,
+        "importPath": "graphRAG.llm.prompts",
+        "description": "graphRAG.llm.prompts",
+        "peekOfCode": "def build_prompt(context: str, question: str) -> str:\n    return f\"\"\"\nCONTEXT:\n{context}\nCÂU HỎI:\n{question}\nTRẢ LỜI:\n\"\"\"\nHYDE_PROMPT = \"\"\"\nHãy viết một đoạn mô tả ngành học giả định để hỗ trợ tìm kiếm tài liệu.",
+        "detail": "graphRAG.llm.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "PROMPT",
+        "kind": 5,
+        "importPath": "graphRAG.llm.prompts",
+        "description": "graphRAG.llm.prompts",
+        "peekOfCode": "PROMPT = \"\"\"\nBạn là hệ thống tư vấn ngành học cho học sinh.\nQUY TẮC\n1. Chỉ sử dụng thông tin có trong CONTEXT.\n2. Nếu dữ liệu chưa đủ, hãy nói rõ rằng chưa đủ thông tin để tư vấn.\n3. Không bịa thông tin về ngành, chương trình học hoặc cơ hội nghề nghiệp.\n4. Trả lời rõ ràng, dễ hiểu và giải thích vì sao ngành phù hợp.\n\"\"\"\ndef build_prompt(context: str, question: str) -> str:\n    return f\"\"\"",
+        "detail": "graphRAG.llm.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "HYDE_PROMPT",
+        "kind": 5,
+        "importPath": "graphRAG.llm.prompts",
+        "description": "graphRAG.llm.prompts",
+        "peekOfCode": "HYDE_PROMPT = \"\"\"\nHãy viết một đoạn mô tả ngành học giả định để hỗ trợ tìm kiếm tài liệu.\nĐoạn mô tả cần nhắc đến sở thích, kỹ năng, môn học và nghề nghiệp liên quan.\nKhông tư vấn trực tiếp cho người dùng.\nCâu hỏi: {question}\nĐoạn mô tả:\n\"\"\"\nQUERY_REWRITE_PROMPT = \"\"\"\nHãy sửa lỗi chính tả và viết lại câu hỏi tư vấn ngành sau cho rõ ràng hơn.\nGiữ nguyên ý nghĩa và không trả lời câu hỏi.",
+        "detail": "graphRAG.llm.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "QUERY_REWRITE_PROMPT",
+        "kind": 5,
+        "importPath": "graphRAG.llm.prompts",
+        "description": "graphRAG.llm.prompts",
+        "peekOfCode": "QUERY_REWRITE_PROMPT = \"\"\"\nHãy sửa lỗi chính tả và viết lại câu hỏi tư vấn ngành sau cho rõ ràng hơn.\nGiữ nguyên ý nghĩa và không trả lời câu hỏi.\nCâu hỏi: {question}\nCâu hỏi đã chuẩn hóa:\n\"\"\"",
+        "detail": "graphRAG.llm.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "BGEReranker",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.reranker.bge_reranker",
+        "description": "graphRAG.retrieval.reranker.bge_reranker",
+        "peekOfCode": "class BGEReranker:\n    def __init__(self,model_name: str = \"BAAI/bge-reranker-v2-m3\",top_k: int = 5):\n        self.top_k = top_k\n        self.reranker = FlagReranker(\n            model_name,\n            use_fp16=False\n        )\n    def rerank(self, question: str, nodes):\n        if not nodes:\n            return []",
+        "detail": "graphRAG.retrieval.reranker.bge_reranker",
+        "documentation": {}
+    },
+    {
+        "label": "HyDE",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.rewrite.hyde",
+        "description": "graphRAG.retrieval.rewrite.hyde",
+        "peekOfCode": "class HyDE:\n    def __init__(self, llm):\n        self.llm = llm\n    def generate(self, question: str) -> str:\n        print(\"Buoc hyde (cau hoi gia dinh)\")\n        prompt = HYDE_PROMPT.format(\n            question=question\n        )\n        response = self.llm.complete(prompt)\n        return response.text.strip()",
+        "detail": "graphRAG.retrieval.rewrite.hyde",
+        "documentation": {}
+    },
+    {
+        "label": "QueryRewrite",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.rewrite.query_rewrite",
+        "description": "graphRAG.retrieval.rewrite.query_rewrite",
+        "peekOfCode": "class QueryRewrite:\n    def __init__(self, llm):\n        self.llm = llm\n    def rewrite(self, question: str) -> str:\n        print(\"Buoc query rewrite\")\n        prompt = QUERY_REWRITE_PROMPT.format(\n            question=question\n        )\n        response = self.llm.complete(prompt)\n        rewritten_question = response.text.strip()",
+        "detail": "graphRAG.retrieval.rewrite.query_rewrite",
+        "documentation": {}
+    },
+    {
+        "label": "GraphSearch",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.search.graph_search",
+        "description": "graphRAG.retrieval.search.graph_search",
+        "peekOfCode": "class GraphSearch:\n    def __init__(self, graph_index: PropertyGraphIndex, top_k: int = 5):\n        self.graph_index = graph_index\n        self.top_k = top_k\n    def search(self, question: str):\n        print(\"Buoc graph search\")\n        retriever = self.graph_index.as_retriever(\n            similarity_top_k=self.top_k\n        )\n        return retriever.retrieve(question)",
+        "detail": "graphRAG.retrieval.search.graph_search",
+        "documentation": {}
+    },
+    {
+        "label": "HybridSearch",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.search.hybrid_search",
+        "description": "graphRAG.retrieval.search.hybrid_search",
+        "peekOfCode": "class HybridSearch:\n    def __init__(self, rank_constant: int = 60):\n        self.rank_constant = rank_constant\n    def merge(self, vector_results, graph_results):\n        \"\"\"Gộp hai bảng xếp hạng bằng Reciprocal Rank Fusion (RRF).\"\"\"\n        nodes = {}\n        scores = {}\n        for results in (vector_results, graph_results):\n            for rank, result in enumerate(results, start=1):\n                node_id = result.node.node_id",
+        "detail": "graphRAG.retrieval.search.hybrid_search",
+        "documentation": {}
+    },
+    {
+        "label": "VectorSearch",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.search.vector_search",
+        "description": "graphRAG.retrieval.search.vector_search",
+        "peekOfCode": "class VectorSearch:\n    def __init__(self, vector_index,top_k: int = 5):\n        self.vector_index = vector_index\n        self.top_k = top_k\n    def search(self, question):\n        print(\"Buoc vector search\")\n        retriever = self.vector_index.as_retriever(\n            similarity_top_k= self.top_k\n        )\n        return retriever.retrieve(question)",
+        "detail": "graphRAG.retrieval.search.vector_search",
+        "documentation": {}
+    },
+    {
+        "label": "Retriever",
+        "kind": 6,
+        "importPath": "graphRAG.retrieval.retrieve",
+        "description": "graphRAG.retrieval.retrieve",
+        "peekOfCode": "class Retriever:\n    def __init__(self,llm,vector_index,graph_index,top_k: int = 5):\n        self.rewriter = QueryRewrite(llm)\n        self.hyde = HyDE(llm)\n        self.vector_search = VectorSearch(\n            vector_index=vector_index,\n            top_k=top_k\n        )\n        self.graph_search = GraphSearch(\n            graph_index=graph_index,",
+        "detail": "graphRAG.retrieval.retrieve",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "kind": 5,
+        "importPath": "graphRAG.run_offline_phase",
+        "description": "graphRAG.run_offline_phase",
+        "peekOfCode": "builder = BuildIndex()\nbuilder.run()",
+        "detail": "graphRAG.run_offline_phase",
+        "documentation": {}
+    },
+    {
+        "label": "docs",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.ingest",
+        "description": "old_rag.rag.app.google_model.ingest",
+        "peekOfCode": "docs = []\nfor item in documents:\n    docs.append(\n        Document(\n            page_content=item[\"noi_dung\"],\n            metadata={\n                \"ten_nganh\": item[\"ten_nganh\"],\n                \"url\": item[\"url\"]\n            }\n        )",
+        "detail": "old_rag.rag.app.google_model.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "splitter",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.ingest",
+        "description": "old_rag.rag.app.google_model.ingest",
+        "peekOfCode": "splitter = RecursiveCharacterTextSplitter(\n    chunk_size=1200,\n    chunk_overlap=200\n)\nchunks = splitter.split_documents(docs)\n#Nhung Googel AI  (het quota roi nen bo khong xai)\n# embedding = GoogleGenerativeAIEmbeddings(\n#     model=\"models/gemini-embedding-2\" #model embedding chuyen doc pdf \n#     #chi tiet model o day https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2?hl=vi\n# )",
+        "detail": "old_rag.rag.app.google_model.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "chunks",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.ingest",
+        "description": "old_rag.rag.app.google_model.ingest",
+        "peekOfCode": "chunks = splitter.split_documents(docs)\n#Nhung Googel AI  (het quota roi nen bo khong xai)\n# embedding = GoogleGenerativeAIEmbeddings(\n#     model=\"models/gemini-embedding-2\" #model embedding chuyen doc pdf \n#     #chi tiet model o day https://ai.google.dev/gemini-api/docs/models/gemini-embedding-2?hl=vi\n# )\nembedding = HuggingFaceEmbeddings(\n    model_name=\"BAAI/bge-m3\"\n)\n#tao vectorDB",
+        "detail": "old_rag.rag.app.google_model.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "embedding",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.ingest",
+        "description": "old_rag.rag.app.google_model.ingest",
+        "peekOfCode": "embedding = HuggingFaceEmbeddings(\n    model_name=\"BAAI/bge-m3\"\n)\n#tao vectorDB\ndb = Chroma.from_documents(\n    documents=chunks,\n    embedding=embedding,\n    persist_directory=\"vector_db\"\n)\ndb.persist()",
+        "detail": "old_rag.rag.app.google_model.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.ingest",
+        "description": "old_rag.rag.app.google_model.ingest",
+        "peekOfCode": "db = Chroma.from_documents(\n    documents=chunks,\n    embedding=embedding,\n    persist_directory=\"vector_db\"\n)\ndb.persist()\nprint(\"Đa tao thanh cong vector database\",len(chunks))",
+        "detail": "old_rag.rag.app.google_model.ingest",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.model_testAPI",
+        "description": "old_rag.rag.app.google_model.model_testAPI",
+        "peekOfCode": "client = genai.Client(\n    api_key=os.getenv(\"GOOGLE_API_KEY\")\n)\nfor model in client.models.list():\n    print(model.name)",
+        "detail": "old_rag.rag.app.google_model.model_testAPI",
+        "documentation": {}
+    },
+    {
+        "label": "MajorAdvice",
+        "kind": 6,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "class MajorAdvice(BaseModel):\n    ten_nganh: str = Field(description=\"Tên ngành được đề xuất\")\n    mo_ta_nganh: str = Field(description=\"Mô tả ngắn gọn về ngành\")\n    ly_do_phu_hop: str = Field(description=\"Giải thích vì sao ngành phù hợp với người dùng\")\n    nguon_tham_khao: str | None = Field(\n        default=None,\n        description=\"Đường dẫn nguồn tham khảo có trong dữ liệu\",\n    )\nllm = ChatGoogleGenerativeAI(\n    model=\"gemini-3.1-flash-lite\",",
+        "detail": "old_rag.rag.app.google_model.rag",
+        "documentation": {}
+    },
+    {
+        "label": "ask",
+        "kind": 2,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "def ask(gr_major,describe):\n    question = \"Nhóm ngành phù hợp với tôi là \" + gr_major + \" và sở thích, tính cách của tôi là \" + describe\n    print(f\"[{datetime.now()}] Đã nhận request\")\n    docs = retriever.invoke(question) #goi model\n    print(f\"[{datetime.now()}] Đã retrieve xong\")\n    context=\"\\n\\n\".join(\n        [\n            d.page_content\n            for d in docs\n        ]",
+        "detail": "old_rag.rag.app.google_model.rag",
+        "documentation": {}
+    },
+    {
+        "label": "CURRENT_DIR",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "CURRENT_DIR = Path(__file__).resolve().parent\nBACKEND_DIR = Path(__file__).resolve().parents[4]\nload_dotenv(BACKEND_DIR / \".env\")\nembedding = HuggingFaceEmbeddings(\n    model_name =\"BAAI/bge-m3\"\n)\ndb= Chroma(\n    persist_directory=str(CURRENT_DIR / \"vector_db\"),\n    embedding_function=embedding\n)",
+        "detail": "old_rag.rag.app.google_model.rag",
+        "documentation": {}
+    },
+    {
+        "label": "BACKEND_DIR",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "BACKEND_DIR = Path(__file__).resolve().parents[4]\nload_dotenv(BACKEND_DIR / \".env\")\nembedding = HuggingFaceEmbeddings(\n    model_name =\"BAAI/bge-m3\"\n)\ndb= Chroma(\n    persist_directory=str(CURRENT_DIR / \"vector_db\"),\n    embedding_function=embedding\n)\nretriever = db.as_retriever(",
+        "detail": "old_rag.rag.app.google_model.rag",
+        "documentation": {}
+    },
+    {
+        "label": "embedding",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "embedding = HuggingFaceEmbeddings(\n    model_name =\"BAAI/bge-m3\"\n)\ndb= Chroma(\n    persist_directory=str(CURRENT_DIR / \"vector_db\"),\n    embedding_function=embedding\n)\nretriever = db.as_retriever(\n    search_kwargs={\"k\":3}\n)",
+        "detail": "old_rag.rag.app.google_model.rag",
+        "documentation": {}
+    },
+    {
+        "label": "retriever",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "retriever = db.as_retriever(\n    search_kwargs={\"k\":3}\n)\nclass MajorAdvice(BaseModel):\n    ten_nganh: str = Field(description=\"Tên ngành được đề xuất\")\n    mo_ta_nganh: str = Field(description=\"Mô tả ngắn gọn về ngành\")\n    ly_do_phu_hop: str = Field(description=\"Giải thích vì sao ngành phù hợp với người dùng\")\n    nguon_tham_khao: str | None = Field(\n        default=None,\n        description=\"Đường dẫn nguồn tham khảo có trong dữ liệu\",",
+        "detail": "old_rag.rag.app.google_model.rag",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "old_rag.rag.app.google_model.rag",
+        "description": "old_rag.rag.app.google_model.rag",
+        "peekOfCode": "llm = ChatGoogleGenerativeAI(\n    model=\"gemini-3.1-flash-lite\",\n    temperature=0 #giam do sang tao de model dua ra kq chinh xac nhat, khong bi ao giac\n)\ndef ask(gr_major,describe):\n    question = \"Nhóm ngành phù hợp với tôi là \" + gr_major + \" và sở thích, tính cách của tôi là \" + describe\n    print(f\"[{datetime.now()}] Đã nhận request\")\n    docs = retriever.invoke(question) #goi model\n    print(f\"[{datetime.now()}] Đã retrieve xong\")\n    context=\"\\n\\n\".join(",
+        "detail": "old_rag.rag.app.google_model.rag",
         "documentation": {}
     }
 ]
