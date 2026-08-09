@@ -1,9 +1,11 @@
 import json
 import requests
+import re
+from pathlib import Path
 from bs4 import BeautifulSoup
 
+
 BASE_URL = "https://tuyensinh.ctu.edu.vn"
-LIST_URL = BASE_URL + "/gioi-thieu-nganh/"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
@@ -13,13 +15,15 @@ headers = {
 def get_major_links():
     links = []
 
-    # Có 13 trang, mỗi trang 10 ngành
     for start in range(0, 130, 10):
+        page_url = (
+            f"{BASE_URL}/gioi-thieu-nganh.html"
+            f"?limit=10&start={start}"
+        )
 
-        page_url = f"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}"
         print(f"Đang đọc: {page_url}")
 
-        res = requests.get(page_url, headers=headers)
+        res = requests.get(page_url, headers=headers, timeout=30)
         res.raise_for_status()
 
         soup = BeautifulSoup(res.text, "lxml")
@@ -44,56 +48,62 @@ def get_major_links():
     return links
 
 
-# Lấy nội dung ngành
-
 def scrape_major(url):
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, timeout=30)
     res.raise_for_status()
 
     soup = BeautifulSoup(res.text, "lxml")
-
-    # Tiêu đề
-    title = soup.select_one("h1, h2")
-    title = title.get_text(strip=True) if title else "Không có tiêu đề"
-
-    # Nội dung bài viết
     content = soup.select_one("section.article-content.clearfix")
 
     paragraphs = []
 
     if content:
-
-        # bỏ video
         for tag in content.find_all(["video", "source"]):
             tag.decompose()
 
         for p in content.find_all("p"):
-
             txt = p.get_text(" ", strip=True)
 
             if txt:
                 paragraphs.append(txt)
 
     text = "\n\n".join(paragraphs)
+
+    match = re.search(
+        r"(?:^|\n|[-•])\s*Tên ngành\s*:\s*([^\n]+)",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    if match:
+        title = match.group(1).strip()
+    else:
+        title = "Không xác định"
+
     return {
         "ten_nganh": title,
         "url": url,
-        "noi_dung": text
+        "noi_dung": text,
     }
 
 
+def export_json(data):
+    output_path = (
+        Path(__file__).resolve().parents[2]
+        / "old_rag"
+        / "rag"
+        / "app"
+        / "google_model"
+        / "ctu_majors.json"
+    )
 
-# Xuất JSON
-
-def export_json(data, filename="ctu_majors.json"):
-    with open(filename, "w", encoding="utf-8") as f:
+    with output_path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
 
+    print(f"Đã lưu file tại: {output_path}")
 
 
-# Main
 if __name__ == "__main__":
-
     links = get_major_links()
 
     print("Tổng số ngành:", len(links))
@@ -101,7 +111,7 @@ if __name__ == "__main__":
     majors = []
 
     for i, link in enumerate(links):
-        print(f"[{i+1}/{len(links)}] {link}")
+        print(f"[{i + 1}/{len(links)}] {link}")
 
         try:
             major = scrape_major(link)
@@ -111,5 +121,4 @@ if __name__ == "__main__":
             print(f"Lỗi: {e}")
 
     export_json(majors)
-
-    print("Đã tạo file ctu_majors.json")
+    print("Đã tạo ctu_majors.json")

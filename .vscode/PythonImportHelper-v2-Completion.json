@@ -27,6 +27,95 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "BeautifulSoup",
         "importPath": "bs4",
         "description": "bs4",
@@ -69,92 +158,11 @@
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
         "label": "defaultdict",
         "importPath": "collections",
         "description": "collections",
         "isExtraImport": true,
         "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -1048,7 +1056,7 @@
         "kind": 2,
         "importPath": "ai.data.crawl_data",
         "description": "ai.data.crawl_data",
-        "peekOfCode": "def get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"\n        print(f\"Đang đọc: {page_url}\")\n        res = requests.get(page_url, headers=headers)\n        res.raise_for_status()\n        soup = BeautifulSoup(res.text, \"lxml\")\n        for a in soup.select(\"a[href]\"):",
+        "peekOfCode": "def get_major_links():\n    links = []\n    for start in range(0, 130, 10):\n        page_url = (\n            f\"{BASE_URL}/gioi-thieu-nganh.html\"\n            f\"?limit=10&start={start}\"\n        )\n        print(f\"Đang đọc: {page_url}\")\n        res = requests.get(page_url, headers=headers, timeout=30)\n        res.raise_for_status()",
         "detail": "ai.data.crawl_data",
         "documentation": {}
     },
@@ -1057,7 +1065,7 @@
         "kind": 2,
         "importPath": "ai.data.crawl_data",
         "description": "ai.data.crawl_data",
-        "peekOfCode": "def scrape_major(url):\n    res = requests.get(url, headers=headers)\n    res.raise_for_status()\n    soup = BeautifulSoup(res.text, \"lxml\")\n    # Tiêu đề\n    title = soup.select_one(\"h1, h2\")\n    title = title.get_text(strip=True) if title else \"Không có tiêu đề\"\n    # Nội dung bài viết\n    content = soup.select_one(\"section.article-content.clearfix\")\n    paragraphs = []",
+        "peekOfCode": "def scrape_major(url):\n    res = requests.get(url, headers=headers, timeout=30)\n    res.raise_for_status()\n    soup = BeautifulSoup(res.text, \"lxml\")\n    content = soup.select_one(\"section.article-content.clearfix\")\n    paragraphs = []\n    if content:\n        for tag in content.find_all([\"video\", \"source\"]):\n            tag.decompose()\n        for p in content.find_all(\"p\"):",
         "detail": "ai.data.crawl_data",
         "documentation": {}
     },
@@ -1066,7 +1074,7 @@
         "kind": 2,
         "importPath": "ai.data.crawl_data",
         "description": "ai.data.crawl_data",
-        "peekOfCode": "def export_json(data, filename=\"ctu_majors.json\"):\n    with open(filename, \"w\", encoding=\"utf-8\") as f:\n        json.dump(data, f, ensure_ascii=False, indent=4)\n# Main\nif __name__ == \"__main__\":\n    links = get_major_links()\n    print(\"Tổng số ngành:\", len(links))\n    majors = []\n    for i, link in enumerate(links):\n        print(f\"[{i+1}/{len(links)}] {link}\")",
+        "peekOfCode": "def export_json(data):\n    output_path = (\n        Path(__file__).resolve().parents[2]\n        / \"old_rag\"\n        / \"rag\"\n        / \"app\"\n        / \"google_model\"\n        / \"ctu_majors.json\"\n    )\n    with output_path.open(\"w\", encoding=\"utf-8\") as f:",
         "detail": "ai.data.crawl_data",
         "documentation": {}
     },
@@ -1075,16 +1083,7 @@
         "kind": 5,
         "importPath": "ai.data.crawl_data",
         "description": "ai.data.crawl_data",
-        "peekOfCode": "BASE_URL = \"https://tuyensinh.ctu.edu.vn\"\nLIST_URL = BASE_URL + \"/gioi-thieu-nganh/\"\nheaders = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"",
-        "detail": "ai.data.crawl_data",
-        "documentation": {}
-    },
-    {
-        "label": "LIST_URL",
-        "kind": 5,
-        "importPath": "ai.data.crawl_data",
-        "description": "ai.data.crawl_data",
-        "peekOfCode": "LIST_URL = BASE_URL + \"/gioi-thieu-nganh/\"\nheaders = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"\n        print(f\"Đang đọc: {page_url}\")",
+        "peekOfCode": "BASE_URL = \"https://tuyensinh.ctu.edu.vn\"\nheaders = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    for start in range(0, 130, 10):\n        page_url = (\n            f\"{BASE_URL}/gioi-thieu-nganh.html\"\n            f\"?limit=10&start={start}\"",
         "detail": "ai.data.crawl_data",
         "documentation": {}
     },
@@ -1093,7 +1092,7 @@
         "kind": 5,
         "importPath": "ai.data.crawl_data",
         "description": "ai.data.crawl_data",
-        "peekOfCode": "headers = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    # Có 13 trang, mỗi trang 10 ngành\n    for start in range(0, 130, 10):\n        page_url = f\"{BASE_URL}/gioi-thieu-nganh.html?limit=10&start={start}\"\n        print(f\"Đang đọc: {page_url}\")\n        res = requests.get(page_url, headers=headers)",
+        "peekOfCode": "headers = {\n    \"User-Agent\": \"Mozilla/5.0\"\n}\ndef get_major_links():\n    links = []\n    for start in range(0, 130, 10):\n        page_url = (\n            f\"{BASE_URL}/gioi-thieu-nganh.html\"\n            f\"?limit=10&start={start}\"\n        )",
         "detail": "ai.data.crawl_data",
         "documentation": {}
     },
@@ -1651,7 +1650,7 @@
         "kind": 6,
         "importPath": "graphRAG.indexing.graph.graph_builder",
         "description": "graphRAG.indexing.graph.graph_builder",
-        "peekOfCode": "class GraphBuilder:\n    def __init__(self, llm, embed_model, graph_store):\n        self.llm = llm\n        self.embed_model = embed_model\n        self.graph_store = graph_store\n    def build(self, nodes):\n        print(\"GraphBuilder bat dau\")\n        extractor = SchemaLLMPathExtractor(\n            llm=self.llm, \n            possible_entities=POSSIBLE_ENTITIES, #sau nay qua file kia sua schema la duoc",
+        "peekOfCode": "class GraphBuilder:\n    def __init__(self, llm, embed_model, graph_store):\n        self.llm = llm\n        self.embed_model = embed_model\n        self.graph_store = graph_store\n    def build(self, nodes):\n        print(\"GraphBuilder bat dau\")\n        extractor = SchemaLLMPathExtractor(\n            llm=self.llm, \n            possible_entities=POSSIBLE_ENTITIES,",
         "detail": "graphRAG.indexing.graph.graph_builder",
         "documentation": {}
     },
@@ -1669,7 +1668,7 @@
         "kind": 5,
         "importPath": "graphRAG.indexing.graph.graph_schema",
         "description": "graphRAG.indexing.graph.graph_schema",
-        "peekOfCode": "POSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",\n    \"MATCHES_HOLLAND\",\n    \"REQUIRES_SKILL\",\n    \"USES_SUBJECT\",\n    \"LEADS_TO_CAREER\",\n]",
+        "peekOfCode": "POSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",\n    \"MATCHES_HOLLAND\",\n    \"REQUIRES_SKILL\",\n    \"USES_SUBJECT\",\n    \"LEADS_TO_CAREER\",\n]\nVALIDATION_SCHEMA: List[Tuple[str, str, str]] = [\n    (\"Major\", \"BELONGS_TO\", \"MajorGroup\"),\n    (\"Major\", \"MATCHES_HOLLAND\", \"HollandType\"),",
         "detail": "graphRAG.indexing.graph.graph_schema",
         "documentation": {}
     },
