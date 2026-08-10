@@ -7,7 +7,8 @@ class BGEReranker:
         self.top_k = top_k
         self.reranker = FlagReranker(
             model_name,
-            use_fp16=False
+            use_fp16=False,
+            devices=["cpu"],
         )
 
     def rerank(self, question: str, nodes):
@@ -20,7 +21,11 @@ class BGEReranker:
             for node in nodes
         ]
 
-        scores = self.reranker.compute_score(pairs)
+        scores = self.reranker.compute_score(
+            pairs,
+            batch_size=4,
+            max_length=512,
+        )
 
         ranked = sorted(
             zip(nodes, scores),

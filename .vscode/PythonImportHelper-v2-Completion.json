@@ -402,6 +402,14 @@
         "documentation": {}
     },
     {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -571,11 +579,11 @@
         "documentation": {}
     },
     {
-        "label": "GeminiLLM",
-        "importPath": "graphRAG.llm.gemini",
-        "description": "graphRAG.llm.gemini",
+        "label": "CustomLLM",
+        "importPath": "graphRAG.llm.custom",
+        "description": "graphRAG.llm.custom",
         "isExtraImport": true,
-        "detail": "graphRAG.llm.gemini",
+        "detail": "graphRAG.llm.custom",
         "documentation": {}
     },
     {
@@ -592,6 +600,70 @@
         "description": "llama_index.embeddings.huggingface",
         "isExtraImport": true,
         "detail": "llama_index.embeddings.huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "collections.abc",
+        "description": "collections.abc",
+        "isExtraImport": true,
+        "detail": "collections.abc",
+        "documentation": {}
+    },
+    {
+        "label": "BaseNode",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BaseNode",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BaseNode",
+        "importPath": "llama_index.core.schema",
+        "description": "llama_index.core.schema",
+        "isExtraImport": true,
+        "detail": "llama_index.core.schema",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm.auto",
+        "description": "tqdm.auto",
+        "isExtraImport": true,
+        "detail": "tqdm.auto",
         "documentation": {}
     },
     {
@@ -707,38 +779,6 @@
         "documentation": {}
     },
     {
-        "label": "Document",
-        "importPath": "llama_index.core.schema",
-        "description": "llama_index.core.schema",
-        "isExtraImport": true,
-        "detail": "llama_index.core.schema",
-        "documentation": {}
-    },
-    {
-        "label": "BaseNode",
-        "importPath": "llama_index.core.schema",
-        "description": "llama_index.core.schema",
-        "isExtraImport": true,
-        "detail": "llama_index.core.schema",
-        "documentation": {}
-    },
-    {
-        "label": "Document",
-        "importPath": "llama_index.core.schema",
-        "description": "llama_index.core.schema",
-        "isExtraImport": true,
-        "detail": "llama_index.core.schema",
-        "documentation": {}
-    },
-    {
-        "label": "BaseNode",
-        "importPath": "llama_index.core.schema",
-        "description": "llama_index.core.schema",
-        "isExtraImport": true,
-        "detail": "llama_index.core.schema",
-        "documentation": {}
-    },
-    {
         "label": "chromadb",
         "kind": 6,
         "isExtraImport": true,
@@ -753,6 +793,15 @@
         "description": "llama_index.vector_stores.chroma",
         "isExtraImport": true,
         "detail": "llama_index.vector_stores.chroma",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
         "documentation": {}
     },
     {
@@ -1470,7 +1519,7 @@
         "kind": 6,
         "importPath": "graphRAG.api.main",
         "description": "graphRAG.api.main",
-        "peekOfCode": "class PredictRequest(BaseModel):\n    subjects: List[str]\n    scores: Dict[str, float]\n    holland: str\nclass Question(BaseModel):\n    group_major:str\n    describe:str\ndef get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:",
+        "peekOfCode": "class PredictRequest(BaseModel):\n    subjects: List[str]\n    scores: Dict[str, float]\n    holland: str\nclass Question(BaseModel):\n    group_major: str\n    describe: str\n    history: List[Dict[str, str]] = Field(default_factory=list)\ndef get_rag_pipeline():\n    global rag_pipeline",
         "detail": "graphRAG.api.main",
         "documentation": {}
     },
@@ -1479,7 +1528,7 @@
         "kind": 6,
         "importPath": "graphRAG.api.main",
         "description": "graphRAG.api.main",
-        "peekOfCode": "class Question(BaseModel):\n    group_major:str\n    describe:str\ndef get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:\n        llm = GeminiLLM().get_llm()\n        embed_model = BGE_M3_Embedding().get_model()\n        chroma_store = ChromaStore()\n        vector_index = VectorStoreIndex.from_vector_store(",
+        "peekOfCode": "class Question(BaseModel):\n    group_major: str\n    describe: str\n    history: List[Dict[str, str]] = Field(default_factory=list)\ndef get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:\n        llm = CustomLLM().get_llm()\n        embed_model = BGE_M3_Embedding().get_model()\n        chroma_store = ChromaStore()",
         "detail": "graphRAG.api.main",
         "documentation": {}
     },
@@ -1506,7 +1555,7 @@
         "kind": 2,
         "importPath": "graphRAG.api.main",
         "description": "graphRAG.api.main",
-        "peekOfCode": "def get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:\n        llm = GeminiLLM().get_llm()\n        embed_model = BGE_M3_Embedding().get_model()\n        chroma_store = ChromaStore()\n        vector_index = VectorStoreIndex.from_vector_store(\n            vector_store=chroma_store.vector_store,\n            embed_model=embed_model,\n        )",
+        "peekOfCode": "def get_rag_pipeline():\n    global rag_pipeline\n    if rag_pipeline is None:\n        llm = CustomLLM().get_llm()\n        embed_model = BGE_M3_Embedding().get_model()\n        chroma_store = ChromaStore()\n        vector_index = VectorStoreIndex.from_vector_store(\n            vector_store=chroma_store.vector_store,\n            embed_model=embed_model,\n        )",
         "detail": "graphRAG.api.main",
         "documentation": {}
     },
@@ -1533,7 +1582,7 @@
         "kind": 2,
         "importPath": "graphRAG.api.main",
         "description": "graphRAG.api.main",
-        "peekOfCode": "def chat(q:Question):\n    question = f\"{q.group_major}\\n{q.describe}\"\n    pipeline = get_rag_pipeline()\n    contexts = pipeline[\"retriever\"].retrieve(question)\n    answer = pipeline[\"answer_generator\"].generate(question, contexts)\n    return {\n        \"answer\": answer\n    }",
+        "peekOfCode": "def chat(q:Question):\n    recent_history = \"\\n\".join(\n        f\"{item.get('role', 'user')}: {item.get('content', '')}\"\n        for item in q.history[-4:]\n    )\n    question = (\n        f\"NHÓM NGÀNH NGƯỜI DÙNG ĐÃ CHỌN: {q.group_major}\\n\"\n        f\"NGỮ CẢNH HỘI THOẠI: {recent_history or 'Chưa có'}\\n\"\n        f\"NỘI DUNG NGƯỜI DÙNG: {q.describe}\"\n    )",
         "detail": "graphRAG.api.main",
         "documentation": {}
     },
@@ -1650,7 +1699,16 @@
         "kind": 6,
         "importPath": "graphRAG.indexing.graph.graph_builder",
         "description": "graphRAG.indexing.graph.graph_builder",
-        "peekOfCode": "class GraphBuilder:\n    def __init__(self, llm, embed_model, graph_store):\n        self.llm = llm\n        self.embed_model = embed_model\n        self.graph_store = graph_store\n    def build(self, nodes):\n        print(\"GraphBuilder bat dau\")\n        extractor = SchemaLLMPathExtractor(\n            llm=self.llm, \n            possible_entities=POSSIBLE_ENTITIES,",
+        "peekOfCode": "class GraphBuilder:\n    \"\"\"Build the property graph and persist every completed node immediately.\"\"\"\n    def __init__(self, llm, embed_model, graph_store, batch_size: int = 1):\n        if batch_size < 1:\n            raise ValueError(\"batch_size must be greater than or equal to 1\")\n        self.llm = llm\n        self.embed_model = embed_model\n        self.graph_store = graph_store\n        self.batch_size = batch_size\n    def _create_index(self, extractor: SchemaLLMPathExtractor) -> PropertyGraphIndex:",
+        "detail": "graphRAG.indexing.graph.graph_builder",
+        "documentation": {}
+    },
+    {
+        "label": "ProgressCallback",
+        "kind": 5,
+        "importPath": "graphRAG.indexing.graph.graph_builder",
+        "description": "graphRAG.indexing.graph.graph_builder",
+        "peekOfCode": "ProgressCallback = Callable[[int, int, BaseNode], None]\nclass GraphBuilder:\n    \"\"\"Build the property graph and persist every completed node immediately.\"\"\"\n    def __init__(self, llm, embed_model, graph_store, batch_size: int = 1):\n        if batch_size < 1:\n            raise ValueError(\"batch_size must be greater than or equal to 1\")\n        self.llm = llm\n        self.embed_model = embed_model\n        self.graph_store = graph_store\n        self.batch_size = batch_size",
         "detail": "graphRAG.indexing.graph.graph_builder",
         "documentation": {}
     },
@@ -1659,7 +1717,7 @@
         "kind": 5,
         "importPath": "graphRAG.indexing.graph.graph_schema",
         "description": "graphRAG.indexing.graph.graph_schema",
-        "peekOfCode": "POSSIBLE_ENTITIES = Literal[\n    \"Major\",\n    \"MajorGroup\",\n    \"HollandType\",\n    \"Skill\",\n    \"Subject\",\n    \"Career\",\n]\nPOSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",",
+        "peekOfCode": "POSSIBLE_ENTITIES = Literal[\n    \"MAJOR\",\n    \"MAJOR_GROUP\",\n    \"HOLLAND_TYPE\",\n    \"SKILL\",\n    \"SUBJECT\",\n    \"CAREER\",\n]\nPOSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",",
         "detail": "graphRAG.indexing.graph.graph_schema",
         "documentation": {}
     },
@@ -1668,7 +1726,7 @@
         "kind": 5,
         "importPath": "graphRAG.indexing.graph.graph_schema",
         "description": "graphRAG.indexing.graph.graph_schema",
-        "peekOfCode": "POSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",\n    \"MATCHES_HOLLAND\",\n    \"REQUIRES_SKILL\",\n    \"USES_SUBJECT\",\n    \"LEADS_TO_CAREER\",\n]\nVALIDATION_SCHEMA: List[Tuple[str, str, str]] = [\n    (\"Major\", \"BELONGS_TO\", \"MajorGroup\"),\n    (\"Major\", \"MATCHES_HOLLAND\", \"HollandType\"),",
+        "peekOfCode": "POSSIBLE_RELATIONS = Literal[\n    \"BELONGS_TO\",\n    \"MATCHES_HOLLAND\",\n    \"REQUIRES_SKILL\",\n    \"USES_SUBJECT\",\n    \"LEADS_TO_CAREER\",\n]\nVALIDATION_SCHEMA: List[Tuple[str, str, str]] = [\n    (\"MAJOR\", \"BELONGS_TO\", \"MAJOR_GROUP\"),\n    (\"MAJOR\", \"MATCHES_HOLLAND\", \"HOLLAND_TYPE\"),",
         "detail": "graphRAG.indexing.graph.graph_schema",
         "documentation": {}
     },
@@ -1731,7 +1789,7 @@
         "kind": 6,
         "importPath": "graphRAG.indexing.build_index",
         "description": "graphRAG.indexing.build_index",
-        "peekOfCode": "class BuildIndex:\n    def __init__(self):\n        backend_dir = Path(__file__).resolve().parents[2]\n        major_file = (\n            backend_dir / \"old_rag\" / \"rag\" / \"app\"\n            / \"google_model\" / \"ctu_majors.json\"\n        )\n        self.loader = MajorLoader(major_file)\n        self.cleaner = TextCleaner()\n        self.normalizer = TextNormalizer()",
+        "peekOfCode": "class BuildIndex:\n    def __init__(self):\n        backend_dir = Path(__file__).resolve().parents[2]\n        major_file = (\n            backend_dir / \"graphRAG\" / \"knowledge\"\n            / \"ctu_majors.json\"\n        )\n        self.loader = MajorLoader(major_file)\n        self.cleaner = TextCleaner()\n        self.normalizer = TextNormalizer()",
         "detail": "graphRAG.indexing.build_index",
         "documentation": {}
     },
@@ -1740,7 +1798,7 @@
         "kind": 6,
         "importPath": "graphRAG.ingestion.loader.load_majors",
         "description": "graphRAG.ingestion.loader.load_majors",
-        "peekOfCode": "class MajorLoader:\n    \"\"\"Đọc dữ liệu ngành học đang được old_rag sử dụng.\"\"\"\n    def __init__(self, json_file: Path):\n        self.json_file = json_file\n    def load(self) -> list[Document]:\n        items = json.loads(self.json_file.read_text(encoding=\"utf-8\"))\n        return [\n            Document(\n                text=item[\"noi_dung\"],\n                metadata={",
+        "peekOfCode": "class MajorLoader:\n    def __init__(self, json_file: Path):\n        self.json_file = json_file\n    def load(self) -> list[Document]:\n        items = json.loads(self.json_file.read_text(encoding=\"utf-8\"))\n        return [\n            Document(\n                text=item[\"noi_dung\"],\n                metadata={\n                    \"ten_nganh\": item[\"ten_nganh\"],",
         "detail": "graphRAG.ingestion.loader.load_majors",
         "documentation": {}
     },
@@ -1776,7 +1834,7 @@
         "kind": 6,
         "importPath": "graphRAG.llm.answer_generator",
         "description": "graphRAG.llm.answer_generator",
-        "peekOfCode": "class AnswerGenerator:\n    def __init__(self, llm=None):\n        self.llm = llm or GeminiLLM().get_llm()\n    def generate(self, question: str, contexts) -> str:\n        context = \"\\n\\n\".join(\n            getattr(item, \"text\", str(item)) for item in contexts\n        )\n        prompt = build_prompt(\n            context=context,\n            question=question,",
+        "peekOfCode": "class AnswerGenerator:\n    def __init__(self, llm=None):\n        self.llm = llm or GeminiLLM().get_llm()\n    def generate(self, question: str, contexts, history=None) -> dict:\n        is_follow_up = bool(history)\n        context = \"\\n\\n\".join(\n            getattr(item, \"text\", str(item)) for item in contexts\n        )\n        prompt = build_prompt(\n            context=context,",
         "detail": "graphRAG.llm.answer_generator",
         "documentation": {}
     },
@@ -1848,7 +1906,7 @@
         "kind": 5,
         "importPath": "graphRAG.llm.prompts",
         "description": "graphRAG.llm.prompts",
-        "peekOfCode": "PROMPT = \"\"\"\nBạn là hệ thống tư vấn ngành học cho học sinh.\nQUY TẮC\n1. Chỉ sử dụng thông tin có trong CONTEXT.\n2. Nếu dữ liệu chưa đủ, hãy nói rõ rằng chưa đủ thông tin để tư vấn.\n3. Không bịa thông tin về ngành, chương trình học hoặc cơ hội nghề nghiệp.\n4. Trả lời rõ ràng, dễ hiểu và giải thích vì sao ngành phù hợp.\n\"\"\"\ndef build_prompt(context: str, question: str) -> str:\n    return f\"\"\"",
+        "peekOfCode": "PROMPT = \"\"\"\nBạn là hệ thống tư vấn ngành học cho học sinh.\nQUY TẮC\n1. Chỉ sử dụng thông tin có trong CONTEXT.\n2. Nếu dữ liệu chưa đủ, hãy nói rõ rằng chưa đủ thông tin để tư vấn.\n3. Không bịa thông tin về ngành, chương trình học hoặc cơ hội nghề nghiệp.\n4. Trả lời rõ ràng, dễ hiểu và giải thích vì sao ngành phù hợp.\n5. Chỉ trả về một JSON hợp lệ, không dùng Markdown và không thêm nội dung bên ngoài JSON.\n6. NHÓM NGÀNH NGƯỜI DÙNG ĐÃ CHỌN là phạm vi tư vấn, không được giả vờ rằng một ngành ngoài phạm vi thuộc nhóm này.\n7. Nếu mô tả của người dùng thiên rõ rệt về một ngành khác ngoài nhóm đã chọn:",
         "detail": "graphRAG.llm.prompts",
         "documentation": {}
     },
@@ -1875,7 +1933,7 @@
         "kind": 6,
         "importPath": "graphRAG.retrieval.reranker.bge_reranker",
         "description": "graphRAG.retrieval.reranker.bge_reranker",
-        "peekOfCode": "class BGEReranker:\n    def __init__(self,model_name: str = \"BAAI/bge-reranker-v2-m3\",top_k: int = 5):\n        self.top_k = top_k\n        self.reranker = FlagReranker(\n            model_name,\n            use_fp16=False\n        )\n    def rerank(self, question: str, nodes):\n        if not nodes:\n            return []",
+        "peekOfCode": "class BGEReranker:\n    def __init__(self,model_name: str = \"BAAI/bge-reranker-v2-m3\",top_k: int = 5):\n        self.top_k = top_k\n        self.reranker = FlagReranker(\n            model_name,\n            use_fp16=False,\n            devices=[\"cpu\"],\n        )\n    def rerank(self, question: str, nodes):\n        if not nodes:",
         "detail": "graphRAG.retrieval.reranker.bge_reranker",
         "documentation": {}
     },
@@ -1934,11 +1992,11 @@
         "documentation": {}
     },
     {
-        "label": "builder",
-        "kind": 5,
+        "label": "parse_args",
+        "kind": 2,
         "importPath": "graphRAG.run_offline_phase",
         "description": "graphRAG.run_offline_phase",
-        "peekOfCode": "builder = BuildIndex()\nbuilder.run()",
+        "peekOfCode": "def parse_args():\n    parser = argparse.ArgumentParser(description=\"Build GraphRAG offline index\")\n    parser.add_argument(\n        \"--resume\",\n        action=\"store_true\",\n        help=\"Tiep tuc tu checkpoint da luu gan nhat\",\n    )\n    parser.add_argument(\n        \"--resume-from\",\n        type=int,",
         "detail": "graphRAG.run_offline_phase",
         "documentation": {}
     },

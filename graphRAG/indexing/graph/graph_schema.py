@@ -2,12 +2,12 @@ from typing import Literal
 
 
 POSSIBLE_ENTITIES = Literal[
-    "Major",
-    "MajorGroup",
-    "HollandType",
-    "Skill",
-    "Subject",
-    "Career",
+    "MAJOR",
+    "MAJOR_GROUP",
+    "HOLLAND_TYPE",
+    "SKILL",
+    "SUBJECT",
+    "CAREER",
 ]
 
 POSSIBLE_RELATIONS = Literal[
@@ -19,9 +19,9 @@ POSSIBLE_RELATIONS = Literal[
 ]
 
 VALIDATION_SCHEMA: List[Tuple[str, str, str]] = [
-    ("Major", "BELONGS_TO", "MajorGroup"),
-    ("Major", "MATCHES_HOLLAND", "HollandType"),
-    ("Major", "REQUIRES_SKILL", "Skill"),
-    ("Major", "USES_SUBJECT", "Subject"),
-    ("Major", "LEADS_TO_CAREER", "Career"),
+    ("MAJOR", "BELONGS_TO", "MAJOR_GROUP"),
+    ("MAJOR", "MATCHES_HOLLAND", "HOLLAND_TYPE"),
+    ("MAJOR", "REQUIRES_SKILL", "SKILL"),
+    ("MAJOR", "USES_SUBJECT", "SUBJECT"),
+    ("MAJOR", "LEADS_TO_CAREER", "CAREER"),
 ]

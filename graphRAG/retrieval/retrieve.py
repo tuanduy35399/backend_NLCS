@@ -57,7 +57,15 @@ class Retriever:
 
         merged_results = self.hybrid.merge(vector_results,graph_results)
 
+        print("Số kết quả vector:", len(vector_results))
+        print("Số kết quả graph:", len(graph_results))
+        print("Số kết quả sau merge:", len(merged_results))
+
         print("Reranking")
-        final_results = self.reranker.rerank(rewritten_question,merged_results)
+        final_results = self.reranker.rerank(
+            rewritten_question,
+            merged_results[:20],
+        )
+        print("Reranking hoàn tất:", len(final_results))
 
         return final_results

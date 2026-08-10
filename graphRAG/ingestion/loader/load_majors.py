@@ -5,7 +5,7 @@ from llama_index.core import Document
 
 
 class MajorLoader:
-    """Đọc dữ liệu ngành học đang được old_rag sử dụng."""
+   
 
     def __init__(self, json_file: Path):
         self.json_file = json_file

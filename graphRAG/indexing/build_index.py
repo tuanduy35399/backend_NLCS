@@ -1,5 +1,7 @@
 
 #Goi buoc load file vo, roi chuan hoa, lam sach may file markdown 
+import json
+import pickle
 from pathlib import Path
 
 from ingestion.loader.load_majors import MajorLoader
@@ -28,8 +30,8 @@ class BuildIndex:
 
         backend_dir = Path(__file__).resolve().parents[2]
         major_file = (
-            backend_dir / "old_rag" / "rag" / "app"
-            / "google_model" / "ctu_majors.json"
+            backend_dir / "graphRAG" / "knowledge"
+            / "ctu_majors.json"
         )
         self.loader = MajorLoader(major_file)
         self.cleaner = TextCleaner()
@@ -52,7 +54,42 @@ class BuildIndex:
 
         self.chroma_store = ChromaStore()
 
-    def run(self):
+        state_dir = backend_dir / "graphRAG" / "database" / "build_state"
+        state_dir.mkdir(parents=True, exist_ok=True)
+        self.checkpoint_file = state_dir / "graph_checkpoint.json"
+        self.metadata_cache_file = state_dir / "metadata_nodes.pkl"
+
+    def _load_checkpoint(self):
+        if not self.checkpoint_file.exists():
+            return 0
+        data = json.loads(self.checkpoint_file.read_text(encoding="utf-8"))
+        return int(data.get("completed_graph_nodes", 0))
+
+    def _save_checkpoint(self, completed, total, _node=None):
+        temp_file = self.checkpoint_file.with_suffix(".tmp")
+        temp_file.write_text(
+            json.dumps(
+                {"completed_graph_nodes": completed, "total_graph_nodes": total},
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+        temp_file.replace(self.checkpoint_file)
+
+    def _load_metadata_cache(self):
+        if not self.metadata_cache_file.exists():
+            return None
+        with self.metadata_cache_file.open("rb") as cache:
+            return pickle.load(cache)
+
+    def _save_metadata_cache(self, nodes):
+        temp_file = self.metadata_cache_file.with_suffix(".tmp")
+        with temp_file.open("wb") as cache:
+            pickle.dump(nodes, cache)
+        temp_file.replace(self.metadata_cache_file)
+
+    def run(self, resume=False, resume_from=None):
 
         print("Dang load file json")
         documents = self.loader.load()
@@ -66,11 +103,34 @@ class BuildIndex:
         print("Tach text thanh node")
         nodes = self.parser.get_nodes_from_documents(documents)
 
-        print("Giai nen metadata")
-        nodes = self.metadata_extractor.extract(nodes)
+        use_cache = resume or resume_from is not None
+        cached_nodes = self._load_metadata_cache() if use_cache else None
+        if cached_nodes is not None:
+            print("Tai metadata nodes tu cache")
+            nodes = cached_nodes
+        else:
+            print("Giai nen metadata")
+            nodes = self.metadata_extractor.extract(nodes)
+            self._save_metadata_cache(nodes)
+            print(f"Da luu metadata checkpoint: {self.metadata_cache_file}")
         print(len(nodes))
-        print("Xay graph theo may cai mqh da quy dinh")
-        graph_index = self.graph_builder.build(nodes)
+
+        if resume_from is not None:
+            start_at = resume_from
+            self._save_checkpoint(start_at, len(nodes))
+        elif resume:
+            start_at = self._load_checkpoint()
+        else:
+            start_at = 0
+
+        if start_at:
+            print(f"Tiep tuc build graph tu node {start_at + 1}/{len(nodes)}")
+        print("Xay graph va luu tung node vao Neo4j")
+        graph_index = self.graph_builder.build(
+            nodes,
+            progress_callback=self._save_checkpoint,
+            start_at=start_at,
+        )
 
         print("Lap chi muc vector")
         storage_context = self.chroma_store.get_storage_context()

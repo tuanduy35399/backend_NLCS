@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import joblib
 import pandas as pd 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Dict
 from fastapi.middleware.cors import CORSMiddleware
 import numpy as np
@@ -14,7 +14,7 @@ from graphRAG.indexing.embedding.bge_m3 import BGE_M3_Embedding
 from graphRAG.indexing.graph.graph_store import GraphStore
 from graphRAG.indexing.vector.chroma import ChromaStore
 from graphRAG.llm.answer_generator import AnswerGenerator
-from graphRAG.llm.gemini import GeminiLLM
+from graphRAG.llm.custom import CustomLLM
 from graphRAG.retrieval.retrieve import Retriever
 
 app = FastAPI()
@@ -107,15 +107,16 @@ class PredictRequest(BaseModel):
     holland: str
     
 class Question(BaseModel):
-    group_major:str
-    describe:str
+    group_major: str
+    describe: str
+    history: List[Dict[str, str]] = Field(default_factory=list)
 
 
 def get_rag_pipeline():
     global rag_pipeline
 
     if rag_pipeline is None:
-        llm = GeminiLLM().get_llm()
+        llm = CustomLLM().get_llm()
         embed_model = BGE_M3_Embedding().get_model()
 
         chroma_store = ChromaStore()
@@ -172,10 +173,22 @@ def predict_group_major(data: PredictRequest):
 
 @app.post("/chat")
 def chat(q:Question):
-    question = f"{q.group_major}\n{q.describe}"
+    recent_history = "\n".join(
+        f"{item.get('role', 'user')}: {item.get('content', '')}"
+        for item in q.history[-4:]
+    )
+    question = (
+        f"NHÓM NGÀNH NGƯỜI DÙNG ĐÃ CHỌN: {q.group_major}\n"
+        f"NGỮ CẢNH HỘI THOẠI: {recent_history or 'Chưa có'}\n"
+        f"NỘI DUNG NGƯỜI DÙNG: {q.describe}"
+    )
     pipeline = get_rag_pipeline()
     contexts = pipeline["retriever"].retrieve(question)
-    answer = pipeline["answer_generator"].generate(question, contexts)
+    answer = pipeline["answer_generator"].generate(
+        question,
+        contexts,
+        history=q.history,
+    )
 
     return {
         "answer": answer
