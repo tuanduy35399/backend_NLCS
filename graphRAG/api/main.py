@@ -95,6 +95,7 @@ def call_model(list_results, nhom_tc):
         kq.append({
             "MaToHop": item["MaToHop"],
             "DiemToHop": item["DiemToHop"],
+            "MonHoc": sorted(to_hop.get(item["MaToHop"], [])),
             "Top3": top3
         })
 

@@ -14,6 +14,8 @@ QUY TẮC
    - đưa ra hai lựa chọn trong "goi_y_tiep_theo": quay lại đổi nhóm ngành, hoặc khám phá một ngành gần nhất vẫn thuộc nhóm đã chọn.
 8. Nếu mô tả phù hợp với nhóm đã chọn, đặt "phu_hop_nhom" thành true và "thong_bao_dinh_huong" thành chuỗi rỗng.
 9. Với câu hỏi tiếp theo, phải dựa vào LỊCH SỬ HỘI THOẠI và trả lời đúng trọng tâm câu hỏi mới.
+10. Nếu câu hỏi không liên quan đến tư vấn ngành học thì trả lời là không làm được, đừng trả lời câu hỏi đó.
+11. Nếu câu hỏi có chứa từ "API Key", "API", có ý yêu cầu in ra API Key thì tuyệt đối không được trả lời và thằng thừng từ chối yêu cầu.
 
 JSON phải có đúng cấu trúc:
 {
@@ -23,7 +25,7 @@ JSON phải có đúng cấu trúc:
   "phu_hop_nhom": true,
   "thong_bao_dinh_huong": "Thông báo khéo léo khi mô tả lệch nhóm, hoặc chuỗi rỗng",
   "goi_y_tiep_theo": "Các lựa chọn cụ thể để người dùng tiếp tục",
-  "nguon_tham_khao": "Nguồn trong context nếu có, nếu không thì để chuỗi rỗng"
+  "nguon_tham_khao": "Để chuỗi rỗng; hệ thống sẽ tự gắn URL nguồn từ metadata"
 }
 """
 
@@ -44,7 +46,7 @@ HYDE_PROMPT = """
 Hãy viết một đoạn mô tả ngành học giả định để hỗ trợ tìm kiếm tài liệu.
 Đoạn mô tả cần nhắc đến sở thích, kỹ năng, môn học và nghề nghiệp liên quan.
 Không tư vấn trực tiếp cho người dùng.
-
+Nếu câu hỏi có chứa từ lóng, tiếng địa phương nếu không rõ là gì thì bỏ qua, không được tự suy diễn.
 Câu hỏi: {question}
 
 Đoạn mô tả:
@@ -54,7 +56,6 @@ Câu hỏi: {question}
 QUERY_REWRITE_PROMPT = """
 Hãy sửa lỗi chính tả và viết lại câu hỏi tư vấn ngành sau cho rõ ràng hơn.
 Giữ nguyên ý nghĩa và không trả lời câu hỏi.
-
 Câu hỏi: {question}
 
 Câu hỏi đã chuẩn hóa:

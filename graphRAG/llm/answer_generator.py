@@ -1,5 +1,6 @@
 import json
 import re
+import unicodedata
 
 try:
     from llm.gemini import GeminiLLM
@@ -16,6 +17,16 @@ class AnswerGenerator:
 
     def generate(self, question: str, contexts, history=None) -> dict:
         is_follow_up = bool(history)
+        sources = []
+        for item in contexts:
+            node = getattr(item, "node", item)
+            metadata = getattr(node, "metadata", {}) or {}
+            url = metadata.get("url", "")
+            if url.startswith("https://tuyensinh.ctu.edu.vn/"):
+                sources.append({
+                    "ten_nganh": str(metadata.get("ten_nganh", "")),
+                    "url": url,
+                })
         context = "\n\n".join(
             getattr(item, "text", str(item)) for item in contexts
         )
@@ -36,7 +47,10 @@ class AnswerGenerator:
 - Trả lời trực tiếp đúng câu hỏi mới, không giới thiệu lại ngành.
 - Không tạo các mục "Tổng quan", "Vì sao phù hợp" hoặc "Bạn có thể làm gì tiếp theo".
 - Có thể dùng Markdown ngắn gọn như danh sách, chữ đậm nếu giúp câu trả lời dễ đọc.
-- Chỉ trả về JSON: {"noi_dung_tra_loi": "Câu trả lời trực tiếp bằng Markdown"}
+- Chỉ trả về JSON: {
+    "noi_dung_tra_loi": "Câu trả lời trực tiếp bằng Markdown,
+    "nguon_tham_khao":
+"}
 """ if is_follow_up else ""
 
         full_prompt = (
@@ -91,6 +105,23 @@ class AnswerGenerator:
         if isinstance(group_fit, str):
             group_fit = group_fit.strip().lower() not in {"false", "0", "không", "khong"}
 
+        def normalize(value):
+            value = unicodedata.normalize("NFD", str(value).casefold())
+            return "".join(char for char in value if unicodedata.category(char) != "Mn")
+
+        suggested_major = normalize(answer.get("ten_nganh", ""))
+        matched_source = next(
+            (
+                source for source in sources
+                if suggested_major
+                and (
+                    suggested_major in normalize(source["ten_nganh"])
+                    or normalize(source["ten_nganh"]) in suggested_major
+                )
+            ),
+            None,
+        )
+
         return {
             "loai_phan_hoi": "tu_van_ban_dau",
             "ten_nganh": str(answer.get("ten_nganh", "")),
@@ -99,5 +130,5 @@ class AnswerGenerator:
             "phu_hop_nhom": bool(group_fit),
             "thong_bao_dinh_huong": str(answer.get("thong_bao_dinh_huong", "")),
             "goi_y_tiep_theo": str(answer.get("goi_y_tiep_theo", "")),
-            "nguon_tham_khao": str(answer.get("nguon_tham_khao", "")),
+            "nguon_tham_khao": matched_source["url"] if matched_source else "",
         }
