@@ -13,6 +13,7 @@ class MetadataExtractor:
                 TitleExtractor(nodes=3, llm=llm),
                 KeywordExtractor(keywords=3, llm=llm),
                 SummaryExtractor(summaries=["self"], llm=llm),
+                
             ]
         )
 

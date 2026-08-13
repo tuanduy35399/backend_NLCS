@@ -1834,7 +1834,7 @@
         "kind": 6,
         "importPath": "graphRAG.llm.answer_generator",
         "description": "graphRAG.llm.answer_generator",
-        "peekOfCode": "class AnswerGenerator:\n    def __init__(self, llm=None):\n        self.llm = llm or GeminiLLM().get_llm()\n    def generate(self, question: str, contexts, history=None) -> dict:\n        is_follow_up = bool(history)\n        context = \"\\n\\n\".join(\n            getattr(item, \"text\", str(item)) for item in contexts\n        )\n        prompt = build_prompt(\n            context=context,",
+        "peekOfCode": "class AnswerGenerator:\n    def __init__(self, llm=None):\n        self.llm = llm or GeminiLLM().get_llm()\n    def generate(self, question: str, contexts, history=None) -> dict:\n        is_follow_up = bool(history)\n        sources = []\n        for item in contexts:\n            node = getattr(item, \"node\", item)\n            metadata = getattr(node, \"metadata\", {}) or {}\n            url = metadata.get(\"url\", \"\")",
         "detail": "graphRAG.llm.answer_generator",
         "documentation": {}
     },
@@ -1915,7 +1915,7 @@
         "kind": 5,
         "importPath": "graphRAG.llm.prompts",
         "description": "graphRAG.llm.prompts",
-        "peekOfCode": "HYDE_PROMPT = \"\"\"\nHãy viết một đoạn mô tả ngành học giả định để hỗ trợ tìm kiếm tài liệu.\nĐoạn mô tả cần nhắc đến sở thích, kỹ năng, môn học và nghề nghiệp liên quan.\nKhông tư vấn trực tiếp cho người dùng.\nCâu hỏi: {question}\nĐoạn mô tả:\n\"\"\"\nQUERY_REWRITE_PROMPT = \"\"\"\nHãy sửa lỗi chính tả và viết lại câu hỏi tư vấn ngành sau cho rõ ràng hơn.\nGiữ nguyên ý nghĩa và không trả lời câu hỏi.",
+        "peekOfCode": "HYDE_PROMPT = \"\"\"\nHãy viết một đoạn mô tả ngành học giả định để hỗ trợ tìm kiếm tài liệu.\nĐoạn mô tả cần nhắc đến sở thích, kỹ năng, môn học và nghề nghiệp liên quan.\nKhông tư vấn trực tiếp cho người dùng.\nNếu câu hỏi có chứa từ lóng, tiếng địa phương nếu không rõ là gì thì bỏ qua, không được tự suy diễn.\nCâu hỏi: {question}\nĐoạn mô tả:\n\"\"\"\nQUERY_REWRITE_PROMPT = \"\"\"\nHãy sửa lỗi chính tả và viết lại câu hỏi tư vấn ngành sau cho rõ ràng hơn.",
         "detail": "graphRAG.llm.prompts",
         "documentation": {}
     },
