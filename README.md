@@ -45,6 +45,14 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
+### Upload dữ liệu Graph lên Neo4J Desktop
+
+Bước 1: Chạy Neo4J Desktop tạo instance
+
+Bước 2: Nhấp vào dấu 3 chấm rồi chọn **Load database from file**
+
+Bước 3: Dẫn vào folder graphRAG/database/neo4j_db_file_dump_backup/neo4j-2026-08-14T11-45-39.dump
+
 ## Chạy API
 
 ```powershell
