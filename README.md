@@ -4,6 +4,10 @@
 
 **Ngày hoàn thành**: 11/08/2026
 
+**Xem bài báo cáo để hiểu rõ hơn**: [REPORT FILE](./my_report/B2306662_Tran_Quoc_Tuan_Duy_REPORT_CT239H.pdf)
+
+**Tác giả**: Trần Quốc Tuấn Duy
+
 Backend gồm hai chức năng đang chạy:
 
 - `POST /predict`: dự đoán nhóm ngành từ điểm và mã Holland.
