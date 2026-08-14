@@ -96,7 +96,8 @@ def call_model(list_results, nhom_tc):
             "MaToHop": item["MaToHop"],
             "DiemToHop": item["DiemToHop"],
             "MonHoc": sorted(to_hop.get(item["MaToHop"], [])),
-            "Top3": top3
+            "Top3": top3,
+            "Holland": nhom_tc,
         })
 
     return kq
