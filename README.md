@@ -47,13 +47,21 @@ pip install -r requirements.txt
 
 ### Upload dữ liệu Graph lên Neo4J Desktop
 
-Bước 1: Chạy Neo4J Desktop tạo instance
+Bước 1: Chạy Neo4J Desktop tạo instance rồi tạo luôn 1 database
 
-Bước 2: Nhấp vào dấu 3 chấm rồi chọn **Load database from file**
+Bước 2: Nhấp vào dấu 3 chấm rồi chọn **Load database from file** 
 
 Bước 3: Dẫn vào folder graphRAG/database/neo4j_db_file_dump_backup/neo4j-2026-08-14T11-45-39.dump
 
-## Chạy API
+Bước 4: Bấm vào nút run để chạy Database
+
+Bước 5: Vào 3 chấm > Plugin > Cài APOC
+
+Bước 6: Chạy Database vừa tạo
+
+Bước 7: Vào file **.env** nhập những thông tin cần thiết vô là chạy được
+
+### Chạy API
 
 ```powershell
 uvicorn graphRAG.api.main:app --reload
