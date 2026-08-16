@@ -10,7 +10,7 @@ venv/
 # IDE
 .idea/
 .vscode/
-.github
+
 # Dữ liệu được sinh lại khi ingest RAG
 vector_db/
 
