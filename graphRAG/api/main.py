@@ -29,14 +29,12 @@ MODEL_FILES = {
     "mixed": "best_model_randomforest_mixed.pkl",
 }
 
-if MODEL_YEAR not in MODEL_FILES:
-    raise ValueError("MODEL_YEAR phải là 2025, 2026 hoặc mixed")
 
 model_path = (
     BACKEND_DIR / "ai" / "model" / "final_models"
     / MODEL_YEAR / MODEL_FILES[MODEL_YEAR]
 )
-model = joblib.load(model_path)
+model = joblib.load(model_path) 
 classes = model.classes_
 df = pd.read_csv(BACKEND_DIR / "ai" / "data" / "to_hop_mon.csv", encoding="utf-8")
 to_hop = df.groupby("MaToHop")["MonHoc"].apply(set).to_dict()
@@ -79,7 +77,7 @@ def call_model(list_results, nhom_tc):
             "DiemToHop": item["DiemToHop"],
             "NhomTinhCach": nhom_tc
         }])
-
+        
         probs = model.predict_proba(df)[0]
 
         top3_idx = np.argsort(probs)[::-1][:3]

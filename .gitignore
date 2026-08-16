@@ -10,8 +10,15 @@ venv/
 # IDE
 .idea/
 .vscode/
-
+.github
 # Dữ liệu được sinh lại khi ingest RAG
 vector_db/
 
 /google_model/vector_db
+
+# Draw.io render previews and validation sidecars
+.drawio-tmp/
+#Codex
+.codex_report_edit/
+
+
