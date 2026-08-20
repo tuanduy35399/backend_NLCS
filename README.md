@@ -4,7 +4,7 @@
 
 **Ngày hoàn thành**: 11/08/2026
 
-**Xem bài báo cáo để hiểu rõ hơn**: [REPORT FILE](./my_report/B2306662_Tran_Quoc_Tuan_Duy_REPORT_CT239H.pdf)
+**Xem bài báo cáo để hiểu rõ hơn**: [REPORT FILE](./docs/my_report/B2306662_Tran_Quoc_Tuan_Duy_REPORT_CT239H.pdf)
 
 **Tác giả**: Trần Quốc Tuấn Duy
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 Bước 1: Chạy Neo4J Desktop tạo instance rồi tạo luôn 1 database
 
-Bước 2: Nhấp vào dấu 3 chấm rồi chọn **Load database from file** 
+Bước 2: Nhấp vào dấu 3 chấm rồi chọn **Load database from file**
 
 Bước 3: Dẫn vào folder graphRAG/database/neo4j_db_file_dump_backup/neo4j-2026-08-14T11-45-39.dump
 
