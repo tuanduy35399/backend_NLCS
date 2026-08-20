@@ -1,62 +1,726 @@
 [
-{"id":"e01_data_science","query":"Khoa học dữ liệu học bao lâu, cấp bằng gì và có mã ngành nào?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1148-khoa-hoc-du-lieu.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7460108.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e02_security","query":"An toàn thông tin học mấy năm, nhận bằng gì và mã ngành bao nhiêu?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480202.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e03_ai","query":"Cho tôi thời gian đào tạo, bằng cấp và mã ngành Trí tuệ nhân tạo.","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1093-tri-tue-nhan-tao.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480107.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e04_software","query":"Kỹ thuật phần mềm hệ đại trà đào tạo bao lâu và cấp bằng gì?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/495-ky-thuat-phan-mem.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480103.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e05_computer_science","query":"Mã ngành và danh hiệu tốt nghiệp của Khoa học máy tính là gì?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/493-khoa-hoc-may-tinh.html"],"reference_answer":"Mã ngành 7480101, đào tạo 4 năm, cấp bằng Kỹ sư.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e06_networks","query":"Mạng máy tính và truyền thông dữ liệu học bao lâu và có mã ngành nào?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/494-m-ng-may-tinh-va-truy-n-thong-d-li-u.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480102.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e07_multimedia","query":"Truyền thông đa phương tiện có mã ngành gì và cấp bằng gì?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/998-truyen-thong-da-phuong-tien.html"],"reference_answer":"Mã ngành 7320104, đào tạo 4 năm, cấp bằng Kỹ sư.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e08_logistics","query":"Logistics và Quản lý chuỗi cung ứng đào tạo bao lâu, bằng gì, mã ngành nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1002-logistics-quan-ly-chuoi-cung-ung.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7510605.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e09_marketing","query":"Marketing học mấy năm và mã tuyển sinh là gì?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/505-marketing.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7340115.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e10_law","query":"Ngành Luật đào tạo bao lâu và cấp bằng gì?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/763-luat-luat-hanh-chinh.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7380101.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e11_accounting","query":"Kế toán có mã ngành bao nhiêu, học trong mấy năm?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/499-ke-toan.html"],"reference_answer":"Mã ngành 7340301, đào tạo 4 năm, cấp bằng Cử nhân.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e12_finance","query":"Tài chính – Ngân hàng cấp bằng gì và có mã ngành nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/502-tai-chinh-ngan-hang.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7340201.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e13_business","query":"Quản trị kinh doanh hệ đại trà học bao lâu và mã ngành nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/888-quan-tri-kinh-doanh.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7340101.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e14_ecommerce","query":"Thương mại điện tử có mã ngành và thời gian đào tạo thế nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1094-thuong-mai-dien-tu.html"],"reference_answer":"Mã ngành 7340122, đào tạo 4 năm, cấp bằng Cử nhân.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e15_mechanical","query":"Kỹ thuật cơ khí học mấy năm và nhận danh hiệu gì?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/769-ky-thuat-co-khi-co-khi-che-tao-may.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7520103.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e16_electrical","query":"Kỹ thuật điện có mã tuyển sinh nào và cấp bằng gì?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/489-ky-thuat-dien.html"],"reference_answer":"Mã ngành 7520201, đào tạo 4 năm, cấp bằng Kỹ sư.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e17_civil","query":"Kỹ thuật xây dựng đào tạo bao lâu và mã ngành là gì?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/485-ky-thuat-xay-dung.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7580201.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e18_architecture","query":"Học Kiến trúc trong bao lâu, tốt nghiệp nhận danh hiệu gì?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1021-kien-truc.html"],"reference_answer":"Đào tạo 5 năm, cấp bằng Kiến trúc sư, mã ngành 7580101.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e19_biomedical","query":"Kỹ thuật y sinh có mã ngành bao nhiêu và cấp bằng gì?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1054-ky-thuat-y-sinh.html"],"reference_answer":"Mã ngành 7520212, đào tạo 4 năm, cấp bằng Kỹ sư.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e20_veterinary","query":"Thú y chất lượng cao học bao lâu và nhận bằng gì?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1099-thu-y-chuong-trinh-chat-luong-cao.html"],"reference_answer":"Đào tạo 5 năm, cấp bằng Bác sỹ Thú y, mã ngành 7640101C.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e21_crop_science","query":"Khoa học cây trồng hệ đại trà có mã ngành và bằng gì?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/774-khoa-hoc-cay-trong-khoa-hoc-cay-trong.html"],"reference_answer":"Mã ngành 7620110, đào tạo 4 năm, cấp bằng Kỹ sư.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e22_aquaculture","query":"Nuôi trồng thủy sản học mấy năm và có mã ngành nào?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/519-nuoi-trong-thuy-san.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7620301.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e23_environment","query":"Khoa học Môi trường có mã ngành gì và cấp bằng gì?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/512-khoa-hoc-moi-truong.html"],"reference_answer":"Mã ngành 7440301, đào tạo 4 năm, cấp bằng Kỹ sư.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e24_biotech","query":"Công nghệ sinh học hệ đại trà đào tạo bao lâu và mã ngành nào?","group_major":"Khoa học tự nhiên","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/546-cong-nghe-sinh-hoc.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7420201.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e25_pharma_chem","query":"Hóa dược học bao lâu, nhận bằng gì và mã ngành bao nhiêu?","group_major":"Khoa học tự nhiên","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/745-hoa-duoc.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7720203.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e26_english","query":"Ngôn ngữ Anh hệ đại trà có mã ngành và thời gian học thế nào?","group_major":"Ngoại ngữ","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/773-ngon-ngu-anh-phien-dich-bien-dich-tieng-anh.html"],"reference_answer":"Mã ngành 7220201, đào tạo 4 năm, cấp bằng Cử nhân.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e27_primary","query":"Giáo dục Tiểu học đào tạo bao lâu và mã ngành là gì?","group_major":"Sư phạm","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/475-giao-duc-tieu-hoc.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7140202.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"e28_tourism","query":"Ngành Du lịch học mấy năm, cấp bằng gì và mã ngành nào?","group_major":"Xã hội nhân văn - Du lịch","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1051-du-lich.html"],"reference_answer":"Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7810101.","difficulty":"easy","category":"program_overview","unanswerable":false},
-{"id":"m01_data_career","query":"Sinh viên Khoa học dữ liệu có thể làm những vị trí nào sau tốt nghiệp?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1148-khoa-hoc-du-lieu.html"],"reference_answer":"Có thể làm nhà khoa học dữ liệu, chuyên viên phân tích dữ liệu hoặc kinh doanh, chuyên gia học máy và AI, quản lý dự án, nghiên cứu hoặc giảng dạy khi đủ điều kiện.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m02_security_career","query":"Tốt nghiệp An toàn thông tin có thể đảm nhiệm công việc nào?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html"],"reference_answer":"Có thể làm bảo mật thông tin, quản trị an ninh mạng, điều tra và xử lý sự cố, giám sát an toàn thông tin hoặc tư vấn bảo mật.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m03_multimedia_career","query":"Tốt nghiệp Truyền thông đa phương tiện làm công việc gì?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/998-truyen-thong-da-phuong-tien.html"],"reference_answer":"Có thể làm quảng cáo, nhận diện thương hiệu, sản xuất phim, tổ chức sự kiện, truyền thông trực tuyến, biên tập truyền hình và xử lý âm thanh, hình ảnh.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m04_logistics_career","query":"Cử nhân Logistics có thể làm tại những loại doanh nghiệp nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1002-logistics-quan-ly-chuoi-cung-ung.html"],"reference_answer":"Có thể làm tại doanh nghiệp sản xuất kinh doanh, doanh nghiệp dịch vụ logistics và tổ chức có hoạt động quản lý chuỗi cung ứng.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m05_marketing_skills","query":"Sinh viên Marketing được trang bị những kiến thức và kỹ năng nghề nghiệp nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/505-marketing.html"],"reference_answer":"Được học kinh tế, kinh doanh, nghiên cứu thị trường, chiến lược marketing, quản trị thương hiệu và truyền thông marketing.","difficulty":"medium","category":"curriculum","unanswerable":false},
-{"id":"m06_law_career","query":"Cử nhân Luật có thể làm việc ở những cơ quan hoặc vị trí nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/763-luat-luat-hanh-chinh.html"],"reference_answer":"Có thể làm công việc pháp lý tại cơ quan nhà nước, tổ chức, doanh nghiệp và cơ quan tư pháp hoặc hành nghề luật khi đáp ứng điều kiện.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m07_accounting_career","query":"Học Kế toán xong có thể làm các vị trí nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/499-ke-toan.html"],"reference_answer":"Có thể làm kế toán, kiểm toán, thuế, phân tích và tư vấn tài chính hoặc quản lý tài chính kế toán.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m08_ecommerce_skills","query":"Thương mại điện tử giúp sinh viên hình thành năng lực chính nào?","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1094-thuong-mai-dien-tu.html"],"reference_answer":"Trang bị kiến thức kinh doanh và công nghệ để tổ chức, vận hành, phân tích và phát triển hoạt động thương mại điện tử.","difficulty":"medium","category":"skills","unanswerable":false},
-{"id":"m09_transport_curriculum","query":"Kỹ thuật xây dựng công trình giao thông học những khối kiến thức chính nào?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1146-ky-thuat-xay-dung-cong-trinh-giao-thong.html"],"reference_answer":"Gồm kiến thức đại cương; cơ học, trắc địa, địa chất, thủy lực, vật liệu; và chuyên ngành thiết kế đường, cầu, nền móng, thi công, quy hoạch giao thông.","difficulty":"medium","category":"curriculum","unanswerable":false},
-{"id":"m10_mechanical_career","query":"Kỹ sư cơ khí có thể làm việc ở vị trí nào?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/769-ky-thuat-co-khi-co-khi-che-tao-may.html"],"reference_answer":"Có thể thiết kế, chế tạo, vận hành, bảo trì và quản lý thiết bị cơ khí tại doanh nghiệp, đơn vị kỹ thuật, viện nghiên cứu hoặc cơ sở đào tạo.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m11_architecture_skills","query":"Sinh viên Kiến trúc được rèn luyện năng lực chuyên môn chính nào?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1021-kien-truc.html"],"reference_answer":"Được rèn tư duy thiết kế, sáng tạo không gian, thể hiện đồ án, dùng công cụ chuyên môn và cân nhắc kỹ thuật, thẩm mỹ, môi trường.","difficulty":"medium","category":"skills","unanswerable":false},
-{"id":"m12_biomedical_career","query":"Kỹ sư Kỹ thuật y sinh có thể làm trong những lĩnh vực nào?","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1054-ky-thuat-y-sinh.html"],"reference_answer":"Có thể vận hành, bảo trì, quản lý, tư vấn, nghiên cứu và phát triển thiết bị hoặc công nghệ y tế.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m13_veterinary_career","query":"Bác sỹ Thú y tốt nghiệp chương trình chất lượng cao có thể làm gì?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1099-thu-y-chuong-trinh-chat-luong-cao.html"],"reference_answer":"Có thể khám, chẩn đoán, phòng trị bệnh động vật; làm tại cơ quan thú y, trang trại, doanh nghiệp, cơ sở nghiên cứu hoặc dịch vụ thú y.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m14_crop_skills","query":"Khoa học cây trồng đào tạo người học giải quyết công việc chuyên môn nào?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/774-khoa-hoc-cay-trong-khoa-hoc-cay-trong.html"],"reference_answer":"Đào tạo về cây trồng, giống, đất, dinh dưỡng, bảo vệ và canh tác để tổ chức sản xuất và ứng dụng kỹ thuật trồng trọt.","difficulty":"medium","category":"skills","unanswerable":false},
-{"id":"m15_aquaculture_career","query":"Tốt nghiệp Nuôi trồng thủy sản có thể làm việc ở đâu?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/519-nuoi-trong-thuy-san.html"],"reference_answer":"Có thể làm tại cơ sở và doanh nghiệp nuôi thủy sản, cơ quan quản lý, đơn vị khuyến ngư hoặc viện nghiên cứu.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m16_resource_management","query":"Quản lý tài nguyên và môi trường giải quyết những vấn đề nào?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/513-quan-ly-tai-nguyen-va-moi-truong.html"],"reference_answer":"Hướng đến quản lý, sử dụng tài nguyên và bảo vệ môi trường; đánh giá hiện trạng, lập kế hoạch và hỗ trợ giải quyết vấn đề tài nguyên môi trường.","difficulty":"medium","category":"curriculum","unanswerable":false},
-{"id":"m17_biotech_career","query":"Cử nhân Công nghệ sinh học có thể làm trong lĩnh vực nào?","group_major":"Khoa học tự nhiên","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/546-cong-nghe-sinh-hoc.html"],"reference_answer":"Có thể nghiên cứu, kiểm nghiệm, sản xuất và ứng dụng công nghệ sinh học trong nông nghiệp, thực phẩm, môi trường và lĩnh vực liên quan.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m18_english_career","query":"Tốt nghiệp Ngôn ngữ Anh có thể đảm nhiệm công việc nào?","group_major":"Ngoại ngữ","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/773-ngon-ngu-anh-phien-dich-bien-dich-tieng-anh.html"],"reference_answer":"Có thể biên phiên dịch, làm việc dùng tiếng Anh trong doanh nghiệp, truyền thông, dịch vụ hoặc giảng dạy khi đủ nghiệp vụ.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"m19_primary_skills","query":"Sinh viên Giáo dục Tiểu học cần đạt năng lực nghề nghiệp nào?","group_major":"Sư phạm","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/475-giao-duc-tieu-hoc.html"],"reference_answer":"Cần có kiến thức giáo dục và môn học tiểu học, năng lực tổ chức dạy học, đánh giá học sinh, quản lý lớp và giao tiếp sư phạm.","difficulty":"medium","category":"skills","unanswerable":false},
-{"id":"m20_literature_career","query":"Cử nhân Văn học có thể làm công việc nào ngoài nghiên cứu?","group_major":"Xã hội nhân văn - Du lịch","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/887-van-hoc.html"],"reference_answer":"Có thể làm nội dung, biên tập, xuất bản, truyền thông, văn hóa, hành chính hoặc giảng dạy khi đáp ứng yêu cầu.","difficulty":"medium","category":"career","unanswerable":false},
-{"id":"h01_ai_data","query":"So sánh thời gian, bằng cấp và trọng tâm của Trí tuệ nhân tạo với Khoa học dữ liệu.","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1093-tri-tue-nhan-tao.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1148-khoa-hoc-du-lieu.html"],"reference_answer":"Cả hai học 4 năm. AI cấp bằng Kỹ sư, tập trung xây dựng và ứng dụng AI; Khoa học dữ liệu cấp bằng Cử nhân, chú trọng toán, thống kê, tin học và phân tích dữ liệu.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h02_security_networks","query":"So sánh An toàn thông tin với Mạng máy tính về thời gian, bằng cấp và nghề nghiệp.","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/494-m-ng-may-tinh-va-truy-n-thong-d-li-u.html"],"reference_answer":"Cả hai học 4 năm, cấp bằng Kỹ sư. An toàn thông tin tập trung bảo mật và ứng phó sự cố; Mạng máy tính tập trung thiết kế, triển khai và quản trị hạ tầng mạng.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h03_logistics_ecommerce","query":"Đối chiếu Logistics với Thương mại điện tử về mã ngành và trọng tâm đào tạo.","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1002-logistics-quan-ly-chuoi-cung-ung.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1094-thuong-mai-dien-tu.html"],"reference_answer":"Logistics mã 7510605, tập trung vận tải, kho bãi và chuỗi cung ứng. Thương mại điện tử mã 7340122, kết hợp kinh doanh và công nghệ cho hoạt động trực tuyến. Cả hai học 4 năm, cấp bằng Cử nhân.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h04_marketing_business","query":"So sánh Marketing và Quản trị kinh doanh về mã ngành và phạm vi nghề nghiệp.","group_major":"Luật - Kinh tế","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/505-marketing.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/888-quan-tri-kinh-doanh.html"],"reference_answer":"Marketing mã 7340115, chuyên về thị trường, khách hàng, thương hiệu và truyền thông; Quản trị kinh doanh mã 7340101, rộng hơn về quản trị doanh nghiệp. Cả hai học 4 năm, cấp bằng Cử nhân.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h05_environment","query":"Khoa học Môi trường và Kỹ thuật môi trường khác nhau thế nào?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/512-khoa-hoc-moi-truong.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/511-ky-thuat-moi-truong.html"],"reference_answer":"Khoa học Môi trường mã 7440301, thiên về cơ sở khoa học, đánh giá và quản lý; Kỹ thuật môi trường mã 7520320, thiên về thiết kế, vận hành giải pháp xử lý. Cả hai học 4 năm, cấp bằng Kỹ sư.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h06_aquaculture_processing","query":"Đối chiếu Nuôi trồng thủy sản với Công nghệ chế biến thủy sản.","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/519-nuoi-trong-thuy-san.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/518-cong-nghe-che-bien-thuy-san.html"],"reference_answer":"Nuôi trồng thủy sản mã 7620301, tập trung giống và hệ thống nuôi; Chế biến thủy sản mã 7540105, tập trung bảo quản, chế biến, chất lượng và sản phẩm sau thu hoạch. Cả hai học 4 năm, cấp bằng Kỹ sư.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h07_english_pedagogy","query":"Ngôn ngữ Anh và Sư phạm Tiếng Anh khác nhau về mã ngành và nghề nghiệp thế nào?","group_major":"Ngoại ngữ - Sư phạm","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/773-ngon-ngu-anh-phien-dich-bien-dich-tieng-anh.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/481-su-pham-tieng-anh.html"],"reference_answer":"Ngôn ngữ Anh mã 7220201, hướng tới biên phiên dịch và công việc dùng tiếng Anh; Sư phạm Tiếng Anh mã 7140231, tập trung nghiệp vụ dạy tiếng Anh. Cả hai học 4 năm, cấp bằng Cử nhân.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"h08_architecture_civil","query":"So sánh Kiến trúc với Kỹ thuật xây dựng về thời gian, bằng cấp và trọng tâm.","group_major":"Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1021-kien-truc.html","https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/485-ky-thuat-xay-dung.html"],"reference_answer":"Kiến trúc học 5 năm, cấp bằng Kiến trúc sư, thiên về không gian, thẩm mỹ và thiết kế; Kỹ thuật xây dựng học 4 năm, cấp bằng Kỹ sư, thiên về tính toán, thi công và quản lý công trình.","difficulty":"hard","category":"comparison","unanswerable":false},
-{"id":"i01_ai_tuition","query":"Học phí chính xác ngành Trí tuệ nhân tạo năm 2027 cho toàn khóa là bao nhiêu?","group_major":"Công nghệ thông tin và Truyền thông","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1093-tri-tue-nhan-tao.html"],"reference_answer":"Nguồn hiện có không nêu học phí chính xác toàn khóa năm 2027; cần kiểm tra thông báo học phí chính thức của trường.","difficulty":"insufficient_information","category":"missing_information","unanswerable":false},
-{"id":"i02_veterinary_salary","query":"Tốt nghiệp Thú y chất lượng cao chắc chắn nhận lương khởi điểm bao nhiêu?","group_major":"Nông nghiệp - Môi trường - Thủy sản","expected_urls":["https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1099-thu-y-chuong-trinh-chat-luong-cao.html"],"reference_answer":"Nguồn không cam kết mức lương khởi điểm cụ thể; thu nhập phụ thuộc vị trí, đơn vị, năng lực và thị trường.","difficulty":"insufficient_information","category":"missing_information","unanswerable":false},
-{"id":"o01_weather","query":"Ngày mai ở Cần Thơ có mưa không và nhiệt độ cao nhất bao nhiêu?","group_major":"","expected_urls":[],"reference_answer":"Kho tri thức ngành học không có dữ liệu dự báo thời tiết; hệ thống phải nói không đủ thông tin và không bịa dự báo.","difficulty":"out_of_scope","category":"out_of_scope","unanswerable":true},
-{"id":"o02_stock","query":"Giá cổ phiếu FPT ngày mai tăng hay giảm và nên mua mức nào?","group_major":"","expected_urls":[],"reference_answer":"Kho tri thức tuyển sinh không có dữ liệu dự báo cổ phiếu; hệ thống phải từ chối dự đoán hoặc khuyến nghị và không bịa thông tin.","difficulty":"out_of_scope","category":"out_of_scope","unanswerable":true}
+    {
+        "id": "e01_data_science",
+        "query": "Khoa học dữ liệu học bao lâu, cấp bằng gì và có mã ngành nào?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1148-khoa-hoc-du-lieu.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7460108.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e02_security",
+        "query": "An toàn thông tin học mấy năm, nhận bằng gì và mã ngành bao nhiêu?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480202.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e03_ai",
+        "query": "Cho tôi thời gian đào tạo, bằng cấp và mã ngành Trí tuệ nhân tạo.",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1093-tri-tue-nhan-tao.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480107.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e04_software",
+        "query": "Kỹ thuật phần mềm hệ đại trà đào tạo bao lâu và cấp bằng gì?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/495-ky-thuat-phan-mem.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480103.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e05_computer_science",
+        "query": "Mã ngành và danh hiệu tốt nghiệp của Khoa học máy tính là gì?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/493-khoa-hoc-may-tinh.html"
+        ],
+        "reference_answer": "Mã ngành 7480101, đào tạo 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e06_networks",
+        "query": "Mạng máy tính và truyền thông dữ liệu học bao lâu và có mã ngành nào?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/494-m-ng-may-tinh-va-truy-n-thong-d-li-u.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7480102.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e07_multimedia",
+        "query": "Truyền thông đa phương tiện có mã ngành gì và cấp bằng gì?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/998-truyen-thong-da-phuong-tien.html"
+        ],
+        "reference_answer": "Mã ngành 7320104, đào tạo 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e08_logistics",
+        "query": "Logistics và Quản lý chuỗi cung ứng đào tạo bao lâu, bằng gì, mã ngành nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1002-logistics-quan-ly-chuoi-cung-ung.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7510605.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e09_marketing",
+        "query": "Marketing học mấy năm và mã tuyển sinh là gì?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/505-marketing.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7340115.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e10_law",
+        "query": "Ngành Luật đào tạo bao lâu và cấp bằng gì?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/763-luat-luat-hanh-chinh.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7380101.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e11_accounting",
+        "query": "Kế toán có mã ngành bao nhiêu, học trong mấy năm?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/499-ke-toan.html"
+        ],
+        "reference_answer": "Mã ngành 7340301, đào tạo 4 năm, cấp bằng Cử nhân.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e12_finance",
+        "query": "Tài chính – Ngân hàng cấp bằng gì và có mã ngành nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/502-tai-chinh-ngan-hang.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7340201.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e13_business",
+        "query": "Quản trị kinh doanh hệ đại trà học bao lâu và mã ngành nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/888-quan-tri-kinh-doanh.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7340101.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e14_ecommerce",
+        "query": "Thương mại điện tử có mã ngành và thời gian đào tạo thế nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1094-thuong-mai-dien-tu.html"
+        ],
+        "reference_answer": "Mã ngành 7340122, đào tạo 4 năm, cấp bằng Cử nhân.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e15_mechanical",
+        "query": "Kỹ thuật cơ khí học mấy năm và nhận danh hiệu gì?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/769-ky-thuat-co-khi-co-khi-che-tao-may.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7520103.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e16_electrical",
+        "query": "Kỹ thuật điện có mã tuyển sinh nào và cấp bằng gì?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/489-ky-thuat-dien.html"
+        ],
+        "reference_answer": "Mã ngành 7520201, đào tạo 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e17_civil",
+        "query": "Kỹ thuật xây dựng đào tạo bao lâu và mã ngành là gì?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/485-ky-thuat-xay-dung.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7580201.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e18_architecture",
+        "query": "Học Kiến trúc trong bao lâu, tốt nghiệp nhận danh hiệu gì?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1021-kien-truc.html"
+        ],
+        "reference_answer": "Đào tạo 5 năm, cấp bằng Kiến trúc sư, mã ngành 7580101.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e19_biomedical",
+        "query": "Kỹ thuật y sinh có mã ngành bao nhiêu và cấp bằng gì?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1054-ky-thuat-y-sinh.html"
+        ],
+        "reference_answer": "Mã ngành 7520212, đào tạo 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e20_veterinary",
+        "query": "Thú y chất lượng cao học bao lâu và nhận bằng gì?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1099-thu-y-chuong-trinh-chat-luong-cao.html"
+        ],
+        "reference_answer": "Đào tạo 5 năm, cấp bằng Bác sỹ Thú y, mã ngành 7640101C.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e21_crop_science",
+        "query": "Khoa học cây trồng hệ đại trà có mã ngành và bằng gì?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/774-khoa-hoc-cay-trong-khoa-hoc-cay-trong.html"
+        ],
+        "reference_answer": "Mã ngành 7620110, đào tạo 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e22_aquaculture",
+        "query": "Nuôi trồng thủy sản học mấy năm và có mã ngành nào?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/519-nuoi-trong-thuy-san.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Kỹ sư, mã ngành 7620301.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e23_environment",
+        "query": "Khoa học Môi trường có mã ngành gì và cấp bằng gì?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/512-khoa-hoc-moi-truong.html"
+        ],
+        "reference_answer": "Mã ngành 7440301, đào tạo 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e24_biotech",
+        "query": "Công nghệ sinh học hệ đại trà đào tạo bao lâu và mã ngành nào?",
+        "group_major": "Khoa học tự nhiên",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/546-cong-nghe-sinh-hoc.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7420201.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e25_pharma_chem",
+        "query": "Hóa dược học bao lâu, nhận bằng gì và mã ngành bao nhiêu?",
+        "group_major": "Khoa học tự nhiên",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/745-hoa-duoc.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7720203.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e26_english",
+        "query": "Ngôn ngữ Anh hệ đại trà có mã ngành và thời gian học thế nào?",
+        "group_major": "Ngoại ngữ",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/773-ngon-ngu-anh-phien-dich-bien-dich-tieng-anh.html"
+        ],
+        "reference_answer": "Mã ngành 7220201, đào tạo 4 năm, cấp bằng Cử nhân.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e27_primary",
+        "query": "Giáo dục Tiểu học đào tạo bao lâu và mã ngành là gì?",
+        "group_major": "Sư phạm",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/475-giao-duc-tieu-hoc.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7140202.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "e28_tourism",
+        "query": "Ngành Du lịch học mấy năm, cấp bằng gì và mã ngành nào?",
+        "group_major": "Xã hội nhân văn - Du lịch",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1051-du-lich.html"
+        ],
+        "reference_answer": "Đào tạo 4 năm, cấp bằng Cử nhân, mã ngành 7810101.",
+        "difficulty": "easy",
+        "category": "program_overview",
+        "unanswerable": false
+    },
+    {
+        "id": "m01_data_career",
+        "query": "Sinh viên Khoa học dữ liệu có thể làm những vị trí nào sau tốt nghiệp?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1148-khoa-hoc-du-lieu.html"
+        ],
+        "reference_answer": "Có thể làm nhà khoa học dữ liệu, chuyên viên phân tích dữ liệu hoặc kinh doanh, chuyên gia học máy và AI, quản lý dự án, nghiên cứu hoặc giảng dạy khi đủ điều kiện.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m02_security_career",
+        "query": "Tốt nghiệp An toàn thông tin có thể đảm nhiệm công việc nào?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html"
+        ],
+        "reference_answer": "Có thể làm bảo mật thông tin, quản trị an ninh mạng, điều tra và xử lý sự cố, giám sát an toàn thông tin hoặc tư vấn bảo mật.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m03_multimedia_career",
+        "query": "Tốt nghiệp Truyền thông đa phương tiện làm công việc gì?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/998-truyen-thong-da-phuong-tien.html"
+        ],
+        "reference_answer": "Có thể làm quảng cáo, nhận diện thương hiệu, sản xuất phim, tổ chức sự kiện, truyền thông trực tuyến, biên tập truyền hình và xử lý âm thanh, hình ảnh.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m04_logistics_career",
+        "query": "Cử nhân Logistics có thể làm tại những loại doanh nghiệp nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1002-logistics-quan-ly-chuoi-cung-ung.html"
+        ],
+        "reference_answer": "Có thể làm tại doanh nghiệp sản xuất kinh doanh, doanh nghiệp dịch vụ logistics và tổ chức có hoạt động quản lý chuỗi cung ứng.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m05_marketing_skills",
+        "query": "Sinh viên Marketing được trang bị những kiến thức và kỹ năng nghề nghiệp nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/505-marketing.html"
+        ],
+        "reference_answer": "Được học kinh tế, kinh doanh, nghiên cứu thị trường, chiến lược marketing, quản trị thương hiệu và truyền thông marketing.",
+        "difficulty": "medium",
+        "category": "curriculum",
+        "unanswerable": false
+    },
+    {
+        "id": "m06_law_career",
+        "query": "Cử nhân Luật có thể làm việc ở những cơ quan hoặc vị trí nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/763-luat-luat-hanh-chinh.html"
+        ],
+        "reference_answer": "Có thể làm công việc pháp lý tại cơ quan nhà nước, tổ chức, doanh nghiệp và cơ quan tư pháp hoặc hành nghề luật khi đáp ứng điều kiện.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m07_accounting_career",
+        "query": "Học Kế toán xong có thể làm các vị trí nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/499-ke-toan.html"
+        ],
+        "reference_answer": "Có thể làm kế toán, kiểm toán, thuế, phân tích và tư vấn tài chính hoặc quản lý tài chính kế toán.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m08_ecommerce_skills",
+        "query": "Thương mại điện tử giúp sinh viên hình thành năng lực chính nào?",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1094-thuong-mai-dien-tu.html"
+        ],
+        "reference_answer": "Trang bị kiến thức kinh doanh và công nghệ để tổ chức, vận hành, phân tích và phát triển hoạt động thương mại điện tử.",
+        "difficulty": "medium",
+        "category": "skills",
+        "unanswerable": false
+    },
+    {
+        "id": "m09_transport_curriculum",
+        "query": "Kỹ thuật xây dựng công trình giao thông học những khối kiến thức chính nào?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1146-ky-thuat-xay-dung-cong-trinh-giao-thong.html"
+        ],
+        "reference_answer": "Gồm kiến thức đại cương; cơ học, trắc địa, địa chất, thủy lực, vật liệu; và chuyên ngành thiết kế đường, cầu, nền móng, thi công, quy hoạch giao thông.",
+        "difficulty": "medium",
+        "category": "curriculum",
+        "unanswerable": false
+    },
+    {
+        "id": "m10_mechanical_career",
+        "query": "Kỹ sư cơ khí có thể làm việc ở vị trí nào?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/769-ky-thuat-co-khi-co-khi-che-tao-may.html"
+        ],
+        "reference_answer": "Có thể thiết kế, chế tạo, vận hành, bảo trì và quản lý thiết bị cơ khí tại doanh nghiệp, đơn vị kỹ thuật, viện nghiên cứu hoặc cơ sở đào tạo.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m11_architecture_skills",
+        "query": "Sinh viên Kiến trúc được rèn luyện năng lực chuyên môn chính nào?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1021-kien-truc.html"
+        ],
+        "reference_answer": "Được rèn tư duy thiết kế, sáng tạo không gian, thể hiện đồ án, dùng công cụ chuyên môn và cân nhắc kỹ thuật, thẩm mỹ, môi trường.",
+        "difficulty": "medium",
+        "category": "skills",
+        "unanswerable": false
+    },
+    {
+        "id": "m12_biomedical_career",
+        "query": "Kỹ sư Kỹ thuật y sinh có thể làm trong những lĩnh vực nào?",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1054-ky-thuat-y-sinh.html"
+        ],
+        "reference_answer": "Có thể vận hành, bảo trì, quản lý, tư vấn, nghiên cứu và phát triển thiết bị hoặc công nghệ y tế.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m13_veterinary_career",
+        "query": "Bác sỹ Thú y tốt nghiệp chương trình chất lượng cao có thể làm gì?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1099-thu-y-chuong-trinh-chat-luong-cao.html"
+        ],
+        "reference_answer": "Có thể khám, chẩn đoán, phòng trị bệnh động vật; làm tại cơ quan thú y, trang trại, doanh nghiệp, cơ sở nghiên cứu hoặc dịch vụ thú y.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m14_crop_skills",
+        "query": "Khoa học cây trồng đào tạo người học giải quyết công việc chuyên môn nào?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/774-khoa-hoc-cay-trong-khoa-hoc-cay-trong.html"
+        ],
+        "reference_answer": "Đào tạo về cây trồng, giống, đất, dinh dưỡng, bảo vệ và canh tác để tổ chức sản xuất và ứng dụng kỹ thuật trồng trọt.",
+        "difficulty": "medium",
+        "category": "skills",
+        "unanswerable": false
+    },
+    {
+        "id": "m15_aquaculture_career",
+        "query": "Tốt nghiệp Nuôi trồng thủy sản có thể làm việc ở đâu?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/519-nuoi-trong-thuy-san.html"
+        ],
+        "reference_answer": "Có thể làm tại cơ sở và doanh nghiệp nuôi thủy sản, cơ quan quản lý, đơn vị khuyến ngư hoặc viện nghiên cứu.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m16_resource_management",
+        "query": "Quản lý tài nguyên và môi trường giải quyết những vấn đề nào?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/513-quan-ly-tai-nguyen-va-moi-truong.html"
+        ],
+        "reference_answer": "Hướng đến quản lý, sử dụng tài nguyên và bảo vệ môi trường; đánh giá hiện trạng, lập kế hoạch và hỗ trợ giải quyết vấn đề tài nguyên môi trường.",
+        "difficulty": "medium",
+        "category": "curriculum",
+        "unanswerable": false
+    },
+    {
+        "id": "m17_biotech_career",
+        "query": "Cử nhân Công nghệ sinh học có thể làm trong lĩnh vực nào?",
+        "group_major": "Khoa học tự nhiên",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/546-cong-nghe-sinh-hoc.html"
+        ],
+        "reference_answer": "Có thể nghiên cứu, kiểm nghiệm, sản xuất và ứng dụng công nghệ sinh học trong nông nghiệp, thực phẩm, môi trường và lĩnh vực liên quan.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m18_english_career",
+        "query": "Tốt nghiệp Ngôn ngữ Anh có thể đảm nhiệm công việc nào?",
+        "group_major": "Ngoại ngữ",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/773-ngon-ngu-anh-phien-dich-bien-dich-tieng-anh.html"
+        ],
+        "reference_answer": "Có thể biên phiên dịch, làm việc dùng tiếng Anh trong doanh nghiệp, truyền thông, dịch vụ hoặc giảng dạy khi đủ nghiệp vụ.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "m19_primary_skills",
+        "query": "Sinh viên Giáo dục Tiểu học cần đạt năng lực nghề nghiệp nào?",
+        "group_major": "Sư phạm",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/475-giao-duc-tieu-hoc.html"
+        ],
+        "reference_answer": "Cần có kiến thức giáo dục và môn học tiểu học, năng lực tổ chức dạy học, đánh giá học sinh, quản lý lớp và giao tiếp sư phạm.",
+        "difficulty": "medium",
+        "category": "skills",
+        "unanswerable": false
+    },
+    {
+        "id": "m20_literature_career",
+        "query": "Cử nhân Văn học có thể làm công việc nào ngoài nghiên cứu?",
+        "group_major": "Xã hội nhân văn - Du lịch",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/887-van-hoc.html"
+        ],
+        "reference_answer": "Có thể làm nội dung, biên tập, xuất bản, truyền thông, văn hóa, hành chính hoặc giảng dạy khi đáp ứng yêu cầu.",
+        "difficulty": "medium",
+        "category": "career",
+        "unanswerable": false
+    },
+    {
+        "id": "h01_ai_data",
+        "query": "So sánh thời gian, bằng cấp và trọng tâm của Trí tuệ nhân tạo với Khoa học dữ liệu.",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1093-tri-tue-nhan-tao.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1148-khoa-hoc-du-lieu.html"
+        ],
+        "reference_answer": "Cả hai học 4 năm. AI cấp bằng Kỹ sư, tập trung xây dựng và ứng dụng AI; Khoa học dữ liệu cấp bằng Cử nhân, chú trọng toán, thống kê, tin học và phân tích dữ liệu.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h02_security_networks",
+        "query": "So sánh An toàn thông tin với Mạng máy tính về thời gian, bằng cấp và nghề nghiệp.",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1003-an-toan-thong-tin.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/494-m-ng-may-tinh-va-truy-n-thong-d-li-u.html"
+        ],
+        "reference_answer": "Cả hai học 4 năm, cấp bằng Kỹ sư. An toàn thông tin tập trung bảo mật và ứng phó sự cố; Mạng máy tính tập trung thiết kế, triển khai và quản trị hạ tầng mạng.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h03_logistics_ecommerce",
+        "query": "Đối chiếu Logistics với Thương mại điện tử về mã ngành và trọng tâm đào tạo.",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1002-logistics-quan-ly-chuoi-cung-ung.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1094-thuong-mai-dien-tu.html"
+        ],
+        "reference_answer": "Logistics mã 7510605, tập trung vận tải, kho bãi và chuỗi cung ứng. Thương mại điện tử mã 7340122, kết hợp kinh doanh và công nghệ cho hoạt động trực tuyến. Cả hai học 4 năm, cấp bằng Cử nhân.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h04_marketing_business",
+        "query": "So sánh Marketing và Quản trị kinh doanh về mã ngành và phạm vi nghề nghiệp.",
+        "group_major": "Luật - Kinh tế",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/505-marketing.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/888-quan-tri-kinh-doanh.html"
+        ],
+        "reference_answer": "Marketing mã 7340115, chuyên về thị trường, khách hàng, thương hiệu và truyền thông; Quản trị kinh doanh mã 7340101, rộng hơn về quản trị doanh nghiệp. Cả hai học 4 năm, cấp bằng Cử nhân.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h05_environment",
+        "query": "Khoa học Môi trường và Kỹ thuật môi trường khác nhau thế nào?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/512-khoa-hoc-moi-truong.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/511-ky-thuat-moi-truong.html"
+        ],
+        "reference_answer": "Khoa học Môi trường mã 7440301, thiên về cơ sở khoa học, đánh giá và quản lý; Kỹ thuật môi trường mã 7520320, thiên về thiết kế, vận hành giải pháp xử lý. Cả hai học 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h06_aquaculture_processing",
+        "query": "Đối chiếu Nuôi trồng thủy sản với Công nghệ chế biến thủy sản.",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/519-nuoi-trong-thuy-san.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/518-cong-nghe-che-bien-thuy-san.html"
+        ],
+        "reference_answer": "Nuôi trồng thủy sản mã 7620301, tập trung giống và hệ thống nuôi; Chế biến thủy sản mã 7540105, tập trung bảo quản, chế biến, chất lượng và sản phẩm sau thu hoạch. Cả hai học 4 năm, cấp bằng Kỹ sư.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h07_english_pedagogy",
+        "query": "Ngôn ngữ Anh và Sư phạm Tiếng Anh khác nhau về mã ngành và nghề nghiệp thế nào?",
+        "group_major": "Ngoại ngữ - Sư phạm",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/773-ngon-ngu-anh-phien-dich-bien-dich-tieng-anh.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/481-su-pham-tieng-anh.html"
+        ],
+        "reference_answer": "Ngôn ngữ Anh mã 7220201, hướng tới biên phiên dịch và công việc dùng tiếng Anh; Sư phạm Tiếng Anh mã 7140231, tập trung nghiệp vụ dạy tiếng Anh. Cả hai học 4 năm, cấp bằng Cử nhân.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "h08_architecture_civil",
+        "query": "So sánh Kiến trúc với Kỹ thuật xây dựng về thời gian, bằng cấp và trọng tâm.",
+        "group_major": "Kỹ thuật - Công nghệ và Kiến trúc - Xây dựng",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1021-kien-truc.html",
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/485-ky-thuat-xay-dung.html"
+        ],
+        "reference_answer": "Kiến trúc học 5 năm, cấp bằng Kiến trúc sư, thiên về không gian, thẩm mỹ và thiết kế; Kỹ thuật xây dựng học 4 năm, cấp bằng Kỹ sư, thiên về tính toán, thi công và quản lý công trình.",
+        "difficulty": "hard",
+        "category": "comparison",
+        "unanswerable": false
+    },
+    {
+        "id": "i01_ai_tuition",
+        "query": "Học phí chính xác ngành Trí tuệ nhân tạo năm 2027 cho toàn khóa là bao nhiêu?",
+        "group_major": "Công nghệ thông tin và Truyền thông",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1093-tri-tue-nhan-tao.html"
+        ],
+        "reference_answer": "Nguồn hiện có không nêu học phí chính xác toàn khóa năm 2027; cần kiểm tra thông báo học phí chính thức của trường.",
+        "difficulty": "insufficient_information",
+        "category": "missing_information",
+        "unanswerable": false
+    },
+    {
+        "id": "i02_veterinary_salary",
+        "query": "Tốt nghiệp Thú y chất lượng cao chắc chắn nhận lương khởi điểm bao nhiêu?",
+        "group_major": "Nông nghiệp - Môi trường - Thủy sản",
+        "expected_urls": [
+            "https://tuyensinh.ctu.edu.vn/gioi-thieu-nganh/1099-thu-y-chuong-trinh-chat-luong-cao.html"
+        ],
+        "reference_answer": "Nguồn không cam kết mức lương khởi điểm cụ thể; thu nhập phụ thuộc vị trí, đơn vị, năng lực và thị trường.",
+        "difficulty": "insufficient_information",
+        "category": "missing_information",
+        "unanswerable": false
+    },
+    {
+        "id": "o01_weather",
+        "query": "Ngày mai ở Cần Thơ có mưa không và nhiệt độ cao nhất bao nhiêu?",
+        "group_major": "",
+        "expected_urls": [],
+        "reference_answer": "Kho tri thức ngành học không có dữ liệu dự báo thời tiết; hệ thống phải nói không đủ thông tin và không bịa dự báo.",
+        "difficulty": "out_of_scope",
+        "category": "out_of_scope",
+        "unanswerable": true
+    },
+    {
+        "id": "o02_stock",
+        "query": "Giá cổ phiếu FPT ngày mai tăng hay giảm và nên mua mức nào?",
+        "group_major": "",
+        "expected_urls": [],
+        "reference_answer": "Kho tri thức tuyển sinh không có dữ liệu dự báo cổ phiếu; hệ thống phải từ chối dự đoán hoặc khuyến nghị và không bịa thông tin.",
+        "difficulty": "out_of_scope",
+        "category": "out_of_scope",
+        "unanswerable": true
+    }
 ]
